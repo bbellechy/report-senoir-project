@@ -1,0 +1,103 @@
+\begin{thebibliography}{10}
+
+\bibitem{ncd2014}
+หอมสนิท �.. ``NCD โรคไม่ติดต่อ''; 11
+  2557,
+\newblock สืบค้นเมื่อ 29 สิงหาคม 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://share.google/fLVqWdcNTidgS22mZ}.
+
+\bibitem{ocr2025}
+กรมอนามัย. ``สถานการณ์
+  สถิติกลุ่มโรคไม่ติดต่อเรื้อรัง
+  (Non-Communicable diseases)''; 2022,
+\newblock สืบค้นเมื่อ: 17 สิงหาคม 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://share.google/Dsz4woehlYvHsfYik}.
+
+\bibitem{thaijournal2023}
+ศรีบุรมย์ �..
+  ``การพัฒนาและการประเมินระบบโปรแกรมประยุกต์บนโทรศัพท์มือถือ
+  เพื่อช่วยในการอ่านฉลากยาสำหรับผู้สูงอายุ'';
+  มีนาคม 2024,
+\newblock สืบค้นเมื่อ: 20 กันยายน 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available:
+  \url{https://he01.tci-thaijo.org/index.php/TJPP/article/view/260634}.
+
+\bibitem{hci}
+Dix A.. ``Human-Computer Interaction'';,
+\newblock [ออนไลน์],
+\newblock [Online]. Available:
+  \url{https://dl.acm.org/doi/10.1145/3544548.3581518}.
+
+\bibitem{database2022}
+Appmaster. ``Fundamentals of Database Systems''; 10 2022,
+\newblock สืบค้นเมื่อ: 1 กันยายน 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available:
+  \url{https://appmaster.io/th/blog/postgresql-khuue-aair}.
+
+\bibitem{flutter2024}
+{Google LLC}. ``Flutter: Build apps for any screen''; 2024,
+\newblock สืบค้นเมื่อ: 20 กันยายน 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://flutter.dev}.
+
+\bibitem{dart2024}
+Dart. ``Dart''; 9 2025,
+\newblock สืบค้นเมื่อ: 20 กันยายน 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://dart.dev/overview}.
+
+\bibitem{springboot2024}
+{VMware, Inc. }. ``Spring Boot: Build anything with Spring Boot''; 2024,
+\newblock สืบค้นเมื่อ: 20 กันยายน 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://spring.io/projects/spring-boot}.
+
+\bibitem{persona2023}
+CONTENT D.. ``PERSONA คืออะไร
+  สำคัญอย่างไรต่อการสร้างแบรนด์'';
+  5 2023,
+\newblock สืบค้นเมื่อ: 10 กันยายน 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available:
+  \url{https://digitorystyle.com/what-is-persona/}.
+
+\bibitem{journey}
+Figma. ``User journey mapping: What it is + how to do it'';,
+\newblock [ออนไลน์],
+\newblock [Online]. Available:
+  \url{https://www.figma.com/resource-library/user-journey-map}.
+
+\bibitem{tmt2013}
+{สำนักพัฒนามาตรฐานระบบข้อมูลสุขภาพไทย}.
+  ``บัญชีข้อมูลยาและรหัสยามาตรฐานไทย'';
+  1 2013,
+\newblock สืบค้นเมื่อ: 15 สิงหาคม 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://this.or.th}.
+
+\bibitem{pyspark2022}
+Sirimarnkit N.. ``เทคนิคการใช้ PySpark กับ Big
+  Data''; 2022,
+\newblock สืบค้นเมื่อ: 30 ตุลาคม 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://share.google/rRh7ia1zkUHB5lB4U}.
+
+\bibitem{kind2025}
+Kubernetes T.. ``kind''; 3 2025,
+\newblock สืบค้นเมื่อ: 8 ตุลาคม 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://kind.sigs.k8s.io/}.
+
+\bibitem{erd2022}
+Abba I.. ``Crow's Foot Notation – Relationship Symbols And How to Read
+  Diagrams''; 6 2022,
+\newblock สืบค้นเมื่อ 29 สิงหาคม 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available:
+  \url{https://www.freecodecamp.org/news/crows-foot-notation-relationship-symbols-and-how-to-read-diagrams}.
+
+\end{thebibliography}

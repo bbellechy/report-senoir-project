@@ -1,0 +1,316 @@
+\chapter{ทฤษฎีที่เกี่ยวข้อง}
+
+\section{สังคมสูงวัย (Aged Society และ Super-Aged Society)}
+\label{sec:aged-society}
+คาดว่าประมาณปี พ.ศ. 2576 ประเทศไทยจะก้าวเข้าสู่ สังคมสูงวัยระดับสุดยอด (Super-Aged Society) ซึ่งมีประชากรอายุเกิน 60 ปี มากกว่าร้อยละ 28 ของประชากรทั้งหมด \cite{ageing2023} การเปลี่ยนแปลงนี้ทำให้เกิดปัญหาด้านสุขภาพและความต้องการเทคโนโลยีเพื่อช่วยเหลือการดูแลผู้สูงอายุ โดยเฉพาะในเรื่อง การจัดการการใช้ยา ซึ่งมีความซับซ้อนและมีความเสี่ยงต่อการใช้ยาผิดพลาด
+
+\section{โรคไม่ติดต่อเรื้อรัง (Non-Communicable Diseases: NCDs)}
+\label{sec:ncds}
+ผู้สูงอายุจำนวนมากป่วยด้วยโรคเรื้อรัง เช่น ความดันโลหิตสูง เบาหวาน โรคหัวใจ ซึ่งต้องใช้ยาหลายชนิดต่อเนื่องเป็นเวลานาน \cite{ncd2014} การลืมทานยาหรือทานผิดเวลาอาจส่งผลต่อประสิทธิภาพการรักษา และก่อให้เกิดภาวะแทรกซ้อน \cite{ocr2025} การพัฒนาแอปพลิเคชันที่ช่วย แจ้งเตือนและบันทึกประวัติการใช้ยา จึงตอบโจทย์การจัดการโรคเรื้อรังอย่างมีระบบ \cite{thaijournal2023}
+
+\section{การออกแบบระบบที่เหมาะสมกับผู้สูงอายุ (Human-Computer Interaction: HCI)}
+\label{sec:hci}
+ผู้สูงอายุมีข้อจำกัดทั้งด้าน สายตา การได้ยิน ความจำ และความคุ้นเคยกับเทคโนโลยี การออกแบบปฏิสัมพันธ์ระหว่างมนุษย์กับคอมพิวเตอร์ (HCI) เป็นสาขาวิชาที่เน้นการทำความเข้าใจผู้ใช้และนำความเข้าใจนั้นมาออกแบบระบบให้สอดคล้องกับพฤติกรรมและความต้องการของผู้ใช้งาน \cite{hci} หัวใจหลักของ HCI คือการศึกษาว่าผู้ใช้คิดอย่างไรและมีพฤติกรรมอย่างไร ซึ่งสำหรับผู้ใช้กลุ่มผู้สูงอายุ จะต้องคำนึงถึงปัจจัยเฉพาะทางกายภาพและสมอง เช่น ปัญหาด้านสายตา, ปัญหาด้านการได้ยิน และปัญหาด้านความจำ การออกแบบแอปพลิเคชันจึงต้องยึดหลัก Accessible Design ได้แก่
+\begin{itemize}[leftmargin=2em]
+    \item ขนาดตัวอักษรใหญ่ อ่านง่าย
+    \item สีสันตัดกันชัดเจน (Contrast)
+    \item ระบบแจ้งเตือนหลายรูปแบบ (เสียง, สั่น, ไฟแจ้งเตือน)
+\end{itemize}
+
+\section{การจัดการการใช้ยา}
+\label{sec:medication-management}
+การจัดการระบบยาเป็นสิ่งสำคัญอย่างยิ่งที่เกี่ยวข้องกับความปลอดภัยของผู้ป่วยหรือผู้ใช้บริการในโรงพยาบาล ระบบยาที่ครอบคลุมสะท้อนให้เห็นถึงการทำงานร่วมกันของทีมสหสาขาวิชาชีพ เพื่อให้การบริหารจัดการระบบยาในโรงพยาบาลมีประสิทธิภาพและปลอดภัย
+
+เกณฑ์การพิจารณาคุณภาพยา:
+\begin{itemize}[leftmargin=2em]
+    \item โรงงานผู้ผลิตที่ได้รับการรับรอง GMP (Good Manufacturing Practice) 
+    \item ยามีคุณลักษณะเฉพาะตามมาตรฐานที่ได้รับการรับรองในประเทศไทย 
+    \item มีใบตรวจวิเคราะห์คุณภาพยาจากบริษัทหรือจากกรมวิทยาศาสตร์การแพทย์ (ภญ.วณีนุช วราชุน, 2561)
+\end{itemize}
+
+\section{พื้นฐานและการออกแบบฐานข้อมูล}
+\label{sec:database-design}
+การออกแบบฐานข้อมูลที่ดีมีความสำคัญอย่างยิ่งต่อความถูกต้องและความสมบูรณ์ของข้อมูล และช่วยให้สามารถเรียกใช้หรือปรับปรุงข้อมูลได้อย่างมีประสิทธิภาพ \cite{database2022} โดยหลักการออกแบบฐานข้อมูลที่ดี มีดังนี้
+\begin{itemize}[leftmargin=2em]
+    \item ลดความซ้ำซ้อนของข้อมูล (Data Redundancy)
+    \item เพิ่มความถูกต้องสมบูรณ์ของข้อมูล (Data Integrity)
+    \item สามารถปรับปรุงหรือเปลี่ยนแปลงโครงสร้างได้ง่าย
+\end{itemize}
+
+\section{Optical Character Recognition (OCR)}
+\label{sec:ocr}
+หรือที่รู้จักกันในภาษาไทยคือ "การรู้จำอักขระด้วยแสง" คือเทคโนโลยีที่ใช้ในการแปลงข้อความจากรูปแบบภาพ (เช่น รูปถ่าย, ภาพสแกน, ไฟล์ PDF ที่เป็นภาพ) ให้กลายเป็นข้อความดิจิทัลที่คอมพิวเตอร์สามารถอ่าน, แก้ไข, ค้นหา หรือนำไปใช้ประมวลผลต่อได้ \cite{ocr2025}
+
+\subsubsection{ประเภทของ OCR}
+\begin{itemize}[leftmargin=4em]
+    \item ซอฟต์แวร์รู้จำอักขระด้วยแสงอย่างง่าย : ใช้อัลกอริทึมการจับคู่รูปแบบเพื่อเปรียบเทียบรูปภาพข้อความกับฐานข้อมูลภายในแบบอักขระทีละตัว
+    \item ซอฟต์แวร์รู้จำอักขระแบบอัจฉริยะ (Intelligent Character Recognition: ICR) : ใช้ Machine Learning และ Neural Network เพื่ออ่านลายมือหรือตัวอักษรที่ซับซ้อน
+    \item การรู้จำคำแบบอัจฉริยะ (Intelligent Word Recognition) : วิเคราะห์คำทั้งคำแทนการประมวลผลทีละตัวอักษร
+    \item การรู้จำเครื่องหมายด้วยแสง (Optical Mark Recognition: OMR) : ใช้ระบุสัญลักษณ์หรือเครื่องหมาย เช่น โลโก้ หรือตัวเลือกในแบบฟอร์มสอบ
+\end{itemize}
+
+\subsubsection{ข้อดีของ OCR}
+\begin{itemize}[leftmargin=4em]
+    \item แปลงเอกสารกระดาษเป็นข้อมูลดิจิทัลที่สามารถค้นหาได้
+    \item สามารถประมวลผลข้อมูลตัวอักษรโดยอัตโนมัติ เพื่อใช้ในการวิเคราะห์และประมวลผลความรู้เพิ่มเติม
+    \item ลดเวลาการประมวลผลเอกสารและการป้อนข้อมูลด้วยตนเอง
+    \item OCR มักถูกรวมเข้ากับเทคโนโลยี AI เพื่อประยุกต์ใช้งานขั้นสูง เช่น อ่านป้ายทะเบียนและป้ายจราจรในรถยนต์ไร้คนขับ (OCR (การรู้จำอักขระด้วยแสง) คืออะไร โดย AWS)
+\end{itemize}
+
+\section{PostgreSQL}
+\label{sec:postgresql}
+
+\textbf{PostgreSQL} เป็นระบบจัดการฐานข้อมูลเชิงสัมพันธ์ (Relational Database Management System: RDBMS) ระดับองค์กรที่มีความเสถียรและเชื่อถือได้สูง โดยรองรับการทำงานแบบ \textbf{ACID} (Atomicity, Consistency, Isolation, Durability) อย่างสมบูรณ์ ซึ่งหมายถึงคุณสมบัติพื้นฐานที่ทำให้การทำธุรกรรม (Transaction) ในฐานข้อมูลมีความถูกต้องและปลอดภัย ได้แก่:
+
+\begin{itemize}
+    \item \textbf{Atomicity} คือ การทำธุรกรรม จะต้องสำเร็จทั้งหมดหรือไม่สำเร็จเลย หากเกิดข้อผิดพลาด ระบบจะยกเลิก (Rollback) การทำงานทั้งหมดเพื่อให้ข้อมูลคงสภาพเดิม  
+    \item \textbf{Consistency} คือ หลังการทำธุรกรรม ข้อมูลในฐานข้อมูลจะต้องยังคงถูกต้องตามกฎและข้อจำกัด (Constraints) ที่กำหนดไว้เสมอ  
+    \item \textbf{Isolation} คือ การทำธุรกรรมหลายรายการที่เกิดขึ้นพร้อมกันจะไม่ส่งผลกระทบต่อกัน ทำให้ผลลัพธ์เทียบเท่ากับการทำงานแบบลำดับ (Serial Execution)  
+    \item \textbf{Durability} คือ เมื่อทำธุรกรรมเสร็จสิ้น ข้อมูลที่เปลี่ยนแปลงแล้วจะถูกบันทึกถาวรในระบบ แม้ระบบจะปิดตัวหรือเกิดความขัดข้อง  
+\end{itemize}
+
+PostgreSQL สามารถรองรับการประมวลผลได้ทั้งสองรูปแบบหลักของระบบฐานข้อมูล คือ:
+
+\begin{itemize}
+    \item \textbf{OLTP (Online Transaction Processing)}: ใช้สำหรับงานที่ต้องการการประมวลผลธุรกรรมจำนวนมากอย่างรวดเร็ว เช่น ระบบธนาคาร ระบบขายสินค้า หรือระบบการจองต่าง ๆ ที่มีการเพิ่ม ลบ หรือแก้ไขข้อมูลอยู่ตลอดเวลา  
+    \item \textbf{OLAP (Online Analytical Processing)}: ใช้สำหรับการวิเคราะห์ข้อมูลเชิงลึก เช่น การสรุปยอดขาย การวิเคราะห์แนวโน้ม หรือการทำรายงานทางธุรกิจ ที่ต้องใช้ข้อมูลจำนวนมากจากหลายแหล่งมาคำนวณรวมกัน  
+\end{itemize}
+
+นอกจากนี้ PostgreSQL ยังรองรับการทำงานข้ามแพลตฟอร์มได้ โดยสามารถติดตั้งและใช้งานได้บนหลายระบบปฏิบัติการ เช่น \textbf{Windows}, \textbf{Linux}, \textbf{macOS}, \textbf{FreeBSD} และ \textbf{OpenBSD} รวมถึงยังมีความสามารถในการขยายเพิ่มเติม (Extensibility) ด้วยการสร้างฟังก์ชัน ข้อมูลชนิดใหม่ หรือโมดูลเสริม (Extensions) เพื่อเพิ่มขีดความสามารถให้ตรงตามความต้องการของผู้ใช้งานอีกด้วย
+
+\subsection{คุณสมบัติที่สำคัญ}
+
+\subsubsection{รองรับข้อมูลที่หลากหลาย}
+\begin{itemize}[leftmargin=2em]
+    \item ข้อมูลเชิงโครงสร้าง (Structured Data) เช่น Integer, Text, Date
+    \item ข้อมูลเชิงไม่โครงสร้าง เช่น JSON และ JSONB
+    \item ข้อมูลเชิงพื้นที่ (Spatial Data) ผ่านส่วนเสริม PostGIS
+\end{itemize}
+
+\subsubsection{การทำงานแบบ Multi-Version Concurrency Control (MVCC)}
+ช่วยให้ผู้ใช้หลายคนเข้าถึงข้อมูลพร้อมกันโดยไม่เกิดการขัดแย้ง
+
+\subsection{ประโยชน์ของ PostgreSQL}
+\begin{itemize}[leftmargin=2em]
+    \item สามารถใช้งานได้โดยไม่จำเป็นต้องชำระเงินและเป็น Open Source ไม่มีค่าใช้จ่ายด้านลิขสิทธิ์
+    \item มีความน่าเชื่อถือสูง รองรับการทำงานต่อเนื่อง (Fault Tolerant)
+    \item รองรับหลายภาษาโปรแกรม เช่น Python, Java, C/C++, PHP, Ruby, Perl, Erlang, Lua, Scala, Haskell, etc.
+    \item รองรับการทำงานข้ามแพลตฟอร์ม \cite{database2022}
+\end{itemize}
+
+\section{สถาปัตยกรรมแบบ Client-Server (Client-Server Architecture)}
+\label{sec:client-server}
+
+\textbf{สถาปัตยกรรมแบบ Client-Server} เป็นรูปแบบการออกแบบระบบคอมพิวเตอร์ที่แบ่งการทำงานออกเป็น 2 ส่วนหลัก คือ \textbf{Client} (ฝั่งผู้ใช้) และ \textbf{Server} (ฝั่งเซิร์ฟเวอร์) โดยทั้งสองส่วนจะสื่อสารกันผ่านเครือข่าย (Network) เพื่อแลกเปลี่ยนข้อมูลและประมวลผลงานร่วมกัน
+
+\subsection{องค์ประกอบหลัก}
+
+\subsubsection{Client (ฝั่งผู้ใช้)}
+Client คือแอปพลิเคชันหรือโปรแกรมที่ทำงานบนอุปกรณ์ของผู้ใช้ เช่น มือถือ คอมพิวเตอร์ หรือแท็บเล็ต มีหน้าที่หลักดังนี้
+\begin{itemize}[leftmargin=2em]
+    \item แสดงส่วนติดต่อผู้ใช้งาน (User Interface)
+    \item รับข้อมูลจากผู้ใช้ เช่น การกรอกข้อมูล การคลิกปุ่ม
+    \item ส่งคำขอ (Request) ไปยัง Server เพื่อขอข้อมูลหรือให้ประมวลผล
+    \item รับและแสดงผลข้อมูลที่ได้จาก Server
+\end{itemize}
+
+ในโครงงานนี้ \textbf{แอปพลิเคชันที่พัฒนาด้วย Flutter} \cite{flutter2024} และ \textbf{Dart} \cite{dart2024} ทำหน้าที่เป็น Client ซึ่งทำงานบนอุปกรณ์ Android ของผู้ใช้
+
+\subsubsection{Server (ฝั่งเซิร์ฟเวอร์)}
+Server คือระบบที่ทำงานบนเครื่องแม่ข่าย มีหน้าที่รับคำขอจาก Client และประมวลผลตามคำขอนั้น ได้แก่
+\begin{itemize}[leftmargin=2em]
+    \item รับและประมวลผลคำขอ (Request) จาก Client
+    \item เข้าถึงและจัดการฐานข้อมูล (Database)
+    \item ตรวจสอบความถูกต้องของข้อมูล (Validation)
+    \item ประมวลผลตรรกะทางธุรกิจ (Business Logic)
+    \item ส่งผลลัพธ์ (Response) กลับไปยัง Client
+\end{itemize}
+
+ในโครงงานนี้ \textbf{Spring Boot Application} \cite{springboot2024} ทำหน้าที่เป็น Server ที่ให้บริการ REST API และเชื่อมต่อกับฐานข้อมูล PostgreSQL
+
+\subsection{การทำงานของระบบ Client-Server ในโครงงาน}
+
+การสื่อสารระหว่าง Client และ Server ในโครงงานนี้เป็นไปตามขั้นตอนดังนี้
+\begin{enumerate}[leftmargin=2em]
+    \item ผู้ใช้โต้ตอบกับแอปพลิเคชัน Flutter (Client) เช่น ค้นหาข้อมูลยา หรือบันทึกการทานยา
+    \item Client ส่งคำขอ HTTP Request ไปยัง Server ผ่าน REST API
+    \item Spring Boot Server รับคำขอและประมวลผล โดยอาจเข้าถึงฐานข้อมูล PostgreSQL เพื่อดึงหรือบันทึกข้อมูล
+    \item Server ส่งผลลัพธ์กลับมาในรูปแบบ HTTP Response (มักเป็น JSON)
+    \item Client รับข้อมูลและแสดงผลบนหน้าจอให้ผู้ใช้เห็น
+\end{enumerate}
+
+\subsection{ข้อดีของสถาปัตยกรรม Client-Server}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{การแยกหน้าที่ชัดเจน} (Separation of Concerns) — Client รับผิดชอบส่วนแสดงผล ขณะที่ Server จัดการข้อมูลและตรรกะทางธุรกิจ
+    
+    \item \textbf{ความปลอดภัย} — ข้อมูลสำคัญและตรรกะทางธุรกิจถูกเก็บไว้ที่ Server ไม่ถูกเปิดเผยบน Client
+    
+    \item \textbf{ง่ายต่อการบำรุงรักษา} — สามารถอัปเดต Server โดยไม่ต้องแก้ไข Client (และในทางกลับกัน) ตราบใดที่ API ยังคงเหมือนเดิม
+    
+    \item \textbf{รองรับผู้ใช้หลายคน} — Server สามารถให้บริการ Client หลายเครื่องพร้อมกันได้
+    
+    \item \textbf{ความยืดหยุ่น} — สามารถพัฒนา Client หลายแพลตฟอร์ม (iOS, Android, Web) ที่ใช้ Server เดียวกัน
+    
+    \item \textbf{การจัดการข้อมูลแบบรวมศูนย์} — ข้อมูลทั้งหมดถูกจัดเก็บและจัดการที่ Server ทำให้ง่ายต่อการสำรองข้อมูลและการรักษาความสอดคล้อง
+\end{itemize}
+
+\subsection{การประยุกต์ใช้ในโครงงาน}
+
+โครงงานนี้ใช้สถาปัตยกรรม Client-Server โดยมีองค์ประกอบดังนี้
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Client:} แอปพลิเคชัน Flutter บน Android ใช้สำหรับแสดงข้อมูลยา, แจ้งเตือนการทานยา, บันทึกประวัติ
+    \item \textbf{Server:} Spring Boot Application ใช้สำหรับจัดการ REST API, ตรรกะทางธุรกิจ, การเข้าถึงฐานข้อมูล
+    \item \textbf{Database:} PostgreSQL ใช้สำหรับจัดเก็บข้อมูลยา, ข้อมูลผู้ใช้, ประวัติการทานยา
+    \item \textbf{Data Pipeline:} PySpark ใช้สำหรับประมวลผลข้อมูลยาจาก Thai Medicine Terminology (TMT) ก่อนนำเข้าฐานข้อมูล
+\end{itemize}
+
+การใช้สถาปัตยกรรมนี้ทำให้ระบบมีความยืดหยุ่น ปลอดภัย และสามารถขยายการทำงานได้ในอนาคต เช่น การเพิ่มแพลตฟอร์ม iOS หรือ Web โดยยังคงใช้ Backend เดียวกัน
+
+\section{Spring Boot Framework}
+\label{sec:spring-boot}
+
+\textbf{Spring Boot} เป็น Framework ที่พัฒนาโดย Pivotal (ปัจจุบันเป็นส่วนหนึ่งของ VMware) สำหรับการสร้างแอปพลิเคชัน Java แบบ standalone ที่พร้อมใช้งานได้ทันที โดย Spring Boot ช่วยลดความซับซ้อนในการตั้งค่าและพัฒนาแอปพลิเคชัน Spring แบบดั้งเดิม ทำให้นักพัฒนาสามารถสร้างแอปพลิเคชันได้รวดเร็วขึ้น
+
+\subsection{คุณสมบัติหลัก}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Auto-Configuration}: ตั้งค่าอัตโนมัติตาม dependencies ที่มีในโปรเจกต์
+    \item \textbf{Embedded Server}: มี Web Server ในตัว เช่น Tomcat, Jetty ไม่ต้องติดตั้งแยก
+    \item \textbf{Production-Ready}: มีเครื่องมือสำหรับ monitoring, health checks, และ metrics
+    \item \textbf{Microservices Support}: รองรับการพัฒนา Microservices Architecture
+\end{itemize}
+
+\subsection{การใช้งานในโครงงาน}
+ในโครงงานนี้ Spring Boot ถูกใช้เพื่อ
+\begin{itemize}[leftmargin=4em]
+    \item สร้าง REST API endpoints สำหรับการสื่อสารระหว่าง Flutter Client และฐานข้อมูล
+    \item จัดการ CRUD operations (Create, Read, Update, Delete) สำหรับข้อมูลยาและผู้ใช้
+    \item ตรวจสอบความถูกต้องของข้อมูล (Validation)
+    \item จัดการการเชื่อมต่อกับ PostgreSQL Database
+\end{itemize}
+
+\section{Flutter Framework}
+\label{sec:flutter}
+เป็น Framework Open Source เปิดตัวในปี 2018 ที่พัฒนาโดย Google ใช้สร้างอินเทอร์เฟซผู้ใช้ (UI) ของแอปพลิเคชันสำหรับแพลตฟอร์ม iOS, Android, Web, Windows, macOS และ Linux โดยใช้ Codebase เดียวในการสร้างแอปมือถือ เว็บ และเดสก์ท็อป (Windows, macOS, Linux) ได้ ซึ่ง Flutter ช่วยลดความซับซ้อนของการสร้าง UI ที่สวยงามและสอดคล้องกัน บนหลายแพลตฟอร์ม (AWS, 2024)
+
+\subsection{เปรียบเทียบการพัฒนาแอปแบบเนทีฟ (Native) และข้ามแพลตฟอร์ม (Cross-platform)}
+
+\subsubsection{Native}
+\begin{itemize}[leftmargin=4em]
+    
+    \item เขียนแยกเฉพาะแต่ละแพลตฟอร์ม เช่น Swift สำหรับ iOS, Kotlin/Java สำหรับ Android
+    \item สามารถเข้าถึงฟังก์ชันของอุปกรณ์ได้อย่างเต็มประสิทธิภาพ
+    \item มีประสิทธิภาพสูง เนื่องจากพัฒนาแพลตฟอร์มอย่างเฉพาะเจาะจง แต่ต้องเขียนหลายโค้ดเบส และมีค่าใช้จ่ายที่สูง
+\end{itemize}
+
+\subsubsection{Cross-platform}
+
+\begin{itemize}[leftmargin=4em]
+    \item สามารถใช้โค้ดเบสเดียวกันสำหรับหลายแพลตฟอร์ม
+    \item ประหยัดเวลาและค่าใช้จ่าย
+    \item อาจเข้าถึงฟังก์ชันบางอย่างของอุปกรณ์ได้อย่างจำกัด
+    \item ประสบการณ์การใช้งานของผู้ใช้สอดคล้องกัน
+\end{itemize}
+
+\subsection{ข้อดีของ Flutter}
+\begin{itemize}[leftmargin=4em]
+    \item ประสิทธิภาพใกล้เคียงแบบ Native แต่มีค่าใช้จ่ายที่ต่ำกว่า
+    \item Render UI เร็วและสม่ำเสมอ เนื่องจากใช้ Engine Graphic ของตัวเอง แสดงผล UI สอดคล้องกันข้ามแพลตฟอร์ม
+    \item รองรับการทำงานขนาน (Parallel Processing)
+    \item มีการสนับสนุนการพัฒนาโดยทีมงานของ Google ที่สนับสนุนการพัฒนาและรองรับการใช้งาน
+\end{itemize}
+
+\subsection{Flutter Text-to-Speech (TTS) Plugin}
+\label{sec:flutter-tts}
+Flutter TTS (flutter\textunderscore tts) เป็น public package ที่ช่วยให้นักพัฒนาสามารถนำความสามารถในการแปลงข้อความเป็นเสียงพูด (Text-to-Speech: TTS) มาใช้ภายในแอปพลิเคชันได้ โดยรองรับหลายแพลตฟอร์ม ได้แก่ Android, iOS, Web, Windows และ macOS ทำให้เหมาะกับการพัฒนาแอปข้ามแพลตฟอร์มด้วย Flutter
+
+\subsubsection{คุณสมบัติหลัก}
+\begin{itemize}[leftmargin=4em]
+    \item พูดข้อความ (speak)
+    \item ดึงรายการภาษาที่รองรับ (getLanguages)
+    \item ตรวจสอบว่าภาษานั้นใช้งานได้หรือไม่ (isLanguageAvailable)
+    \item กำหนดภาษา (setLanguage)
+    \item เลือกเสียง (voice) ที่เหมาะสมกับภาษาและสำเนียง
+    \item ความเร็วในการพูด (setSpeechRate)
+    \item ระดับเสียง (setVolume)
+    \item ระดับโทนเสียง (setPitch)
+\end{itemize}
+
+\subsubsection{ข้อดี}
+\begin{itemize}[leftmargin=4em]
+    \item ลดภาระการอ่านข้อความยาว ๆ โดยเฉพาะในเอกสารกำกับยา
+    \item ช่วยผู้ใช้ที่อ่านภาษาได้ไม่คล่อง แต่สามารถที่จะฟังและเข้าใจ
+\end{itemize}
+
+\subsection{flutter\textunderscore local\textunderscore notifications}
+\label{sec:flutter-local-notifications}
+เป็นปลั๊กอินของ Flutter ที่ใช้สำหรับ การแสดงผลการแจ้งเตือน (Local Notifications) บนอุปกรณ์ต่าง ๆ โดยไม่ต้องมีการเชื่อมต่ออินเทอร์เน็ต เหมาะสำหรับการแจ้งเตือนที่เกิดขึ้นภายในเครื่อง และสามารถนำมาใช้เพื่อสร้างการแจ้งเตือนที่ซับซ้อน
+
+\subsubsection{คุณสมบัติหลัก}
+\begin{itemize}[leftmargin=4em]
+    \item แสดงการแจ้งเตือนพื้นฐาน (basic notifications)
+    \item การตั้งเวลาแจ้งเตือน (Scheduled Notification) เช่น แจ้งเตือนรายวัน รายสัปดาห์ หรือแจ้งเตือนซ้ำเป็นช่วงเวลา
+\end{itemize}
+
+google\_mlkit\_text\_recognition
+\subsection{google\textunderscore mlkit\textunderscore text\textunderscore recognition}
+\label{sec:google-mlkit-text-recognition}
+เหมาะสำหรับแอปที่ต้องการ สแกนและแปลงข้อความจากรูปภาพอย่างแม่นยำ, รองรับหลายภาษา, และ ทำงานออฟไลน์
+
+\subsubsection{ข้อดี}
+\begin{itemize}[leftmargin=4em]
+    \item ใช้โมเดล Machine Learning ของ Google ทำให้การอ่านตัวอักษรจากภาพแม่นยำ แม้ภาพไม่ชัดเจนหรือมีเงา
+    \item มี API ที่เข้าใจง่าย สามารถรวมเข้ากับ Flutter ได้สะดวก
+    \item ทำงานแบบ On-device ไม่ต้องส่งรูปภาพขึ้นไปประมวลผลบนเซิร์ฟเวอร์ ทำให้มีความรวดเร็ว, ประหยัดข้อมูล, และปลอดภัยต่อข้อมูลส่วนตัว
+    \item สามารถสแกนข้อความจากกล้องได้ทันที (Live Camera OCR)
+\end{itemize}
+
+\subsubsection{คุณสมบัติเด่น}
+\begin{itemize}[leftmargin=4em]
+    \item สามารถแปลงรูปภาพให้เป็นข้อความโดยไม่ต้องส่งข้อมูลไปยังเซิร์ฟเวอร์
+    \item สามารถแบ่งข้อความออกเป็นบล็อก, บรรทัด, หรือองค์ประกอบตัวอักษรย่อย ๆ เพื่อการประมวลผลที่ละเอียด
+    \item สแกนและแสดงข้อความจากกล้องแบบเรียลไทม์ได้
+\end{itemize}
+
+\subsection{mobile\textunderscore scanner plugin}
+\label{sec:mobile-scanner}
+เป็น Flutter plugin สำหรับสแกน Barcode ด้วยกล้องของอุปกรณ์ โดยรองรับทั้ง Android, iOS, macOS, Web (แต่ไม่รองรับ Linux และ Windows) จุดเด่นของปลั๊กอินนี้คือ ประสิทธิภาพสูง, น้ำหนักเบา, และปรับแต่งได้ง่าย
+
+\subsubsection{คุณสมบัติเด่น}
+\begin{itemize}[leftmargin=4em]
+    \item สแกนบาร์โค้ดได้เร็ว รองรับการตรวจจับแบบ real-time
+    \item รองรับหลายรูปแบบของบาร์โค้ด เช่น QR Code, Code128, EAN-13 เป็นต้น
+    \item ปรับแต่งกล้องและตัวสแกนได้ เช่น ความละเอียดของกล้อง, ความเร็วการตรวจจับ, เปิด/ปิดแฟลช, การกลับภาพ, การซูมอัตโนมัติ (Flutter คืออะไร โดย AWS, 2567)
+\end{itemize}
+
+\section{Dart}
+\label{sec:dart}
+เป็นภาษาโปรแกรมที่ออกแบบและพัฒนาโดย Google โดยมีเป้าหมายเพื่อรองรับการพัฒนา Client Application บนหลายแพลตฟอร์ม ทั้ง มือถือ, เว็บ และ เดสก์ท็อป (Windows, macOS, Linux) โดยเน้นที่ความ รวดเร็ว, มีประสิทธิภาพ, และ ง่ายต่อการพัฒนา และยังมีความสามารถในการ คอมไพล์ไปยังหลายแพลตฟอร์ม ได้แก่ Dart Native และ Dart Web
+
+\subsection{คุณสมบัติเด่นของ Dart}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Type Safety (ระบบความปลอดภัยของชนิดข้อมูล)} \\
+    Dart ใช้ Static Type Checking เพื่อตรวจสอบความถูกต้องของชนิดข้อมูลตั้งแต่ตอนคอมไพล์ ทำให้ลดข้อผิดพลาดขณะรันโปรแกรม
+    
+    \item \textbf{Null Safety (ระบบป้องกันค่า Null)} \\
+    Dart มีระบบป้องกัน Null ที่บังคับใช้ได้อย่างเคร่งครัด ตัวแปรที่ไม่ได้ระบุว่าสามารถเป็น Null ได้ จะไม่สามารถเก็บค่า Null ได้เลย ป้องกัน Null Reference Error ซึ่งเป็นปัญหาคลาสสิกในภาษาอื่น ๆ
+    
+    \item \textbf{รองรับการเขียนโปรแกรมแบบ Asynchronous} \\
+    โดยมีคำสำคัญ เช่น async, await, และชนิดข้อมูล Future รวมถึง Stream ที่ช่วยให้นักพัฒนาจัดการงานแบบไม่ประสานเวลา (เช่น ดึงข้อมูลจาก API หรือทำงาน I/O) ได้อย่างสะดวก (Dart overview โดย Dart, 2568)
+\end{itemize}
+
+\section{คำศัพท์}
+\label{sec:glossary}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{แอปพลิเคชัน (Application)}: โปรแกรมคอมพิวเตอร์ที่ถูกสร้างขึ้นมาเพื่อทำงานบางอย่างบนอุปกรณ์
+    \item \textbf{เฟรมเวิร์ก (Framework)}: ชุดเครื่องมือและโครงสร้างสำเร็จรูปที่ช่วยให้นักพัฒนาสามารถสร้างโปรแกรมได้รวดเร็วและเป็นระบบมากขึ้น
+    \item \textbf{Codebase}: ชุดไฟล์โค้ดทั้งหมดที่ใช้ในการสร้างโปรแกรมหนึ่ง ๆ
+    \item \textbf{Native}: การพัฒนาแอปพลิเคชันที่เขียนโค้ดแยกกันเฉพาะสำหรับระบบปฏิบัติการนั้น ๆ โดยเฉพาะ
+    \item \textbf{Cross-platform}: การพัฒนาแอปพลิเคชันที่สามารถใช้โค้ดชุดเดียวกันรันบนระบบปฏิบัติการที่แตกต่างกันได้
+    \item \textbf{Backend}: ส่วนการทำงานเบื้องหลังของแอปพลิเคชัน ทำหน้าที่จัดการข้อมูล, ประมวลผลคำสั่ง, และสื่อสารกับฐานข้อมูล
+    \item \textbf{Frontend}: ส่วนที่ผู้ใช้มองเห็นและใช้งานโดยตรง เช่น หน้าจอแอปพลิเคชัน, ปุ่มกด, หรือรูปภาพต่าง ๆ
+    \item \textbf{API (Application Programming Interface)}: ตัวกลางที่ช่วยให้โปรแกรมหรือระบบที่แตกต่างกันสามารถสื่อสารและแลกเปลี่ยนข้อมูลกันได้ 
+    \item \textbf{RESTful API}: รูปแบบมาตรฐานในการออกแบบ API ที่ใช้สื่อสารผ่านอินเทอร์เน็ต โดยมีคำสั่งหลักๆ เช่น GET (ขอข้อมูล), POST (เพิ่มข้อมูล), PUT (แก้ไขข้อมูล) และ DELETE (ลบข้อมูล)
+    \item \textbf{Notification}: การแจ้งเตือนที่ปรากฏบนหน้าจออุปกรณ์เพื่อบอกให้ผู้ใช้ทราบถึงข้อมูลหรือกิจกรรมบางอย่าง
+    \item \textbf{Text-to-Speech (TTS)}: เทคโนโลยีที่แปลงข้อความตัวอักษรให้เป็นเสียงพูด
+    \item \textbf{การรู้จำอักขระด้วยแสง (Optical Character Recognition - OCR)}: เทคโนโลยีที่ใช้ในการแปลงข้อความจากรูปภาพให้กลายเป็นข้อความที่คอมพิวเตอร์สามารถเข้าใจและแก้ไขได้
+\end{itemize}

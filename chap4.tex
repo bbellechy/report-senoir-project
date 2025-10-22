@@ -1,0 +1,355 @@
+\chapter{ระเบียบวิธีดำเนินโครงงาน}
+\label{Ch:Methodology}
+
+\section{การวิเคราะห์และออกแบบระบบ}
+\label{sec:system-analysis-design}
+
+\subsection{Persona}
+\label{subsec:persona}
+
+หมายถึง ตัวตนสมมติที่เป็นตัวแทนกลุ่มลูกค้าเป้าหมายของธุรกิจ โดยอิงจากข้อมูลการวิจัยและวิเคราะห์พฤติกรรม ความต้องการ และแรงจูงใจของกลุ่มลูกค้าจริง เพื่อให้ธุรกิจเข้าใจลูกค้าได้อย่างลึกซึ้ง \cite{persona2023}
+\subsubsection{ความสำคัญของ Persona}
+\begin{itemize}[leftmargin=4em]
+    \item ช่วยให้ธุรกิจเข้าใจลูกค้าได้อย่างลึกซึ้ง
+    \item ปรับกลยุทธ์ทางการตลาดให้เหมาะสมกับพฤติกรรมของกลุ่มเป้าหมาย
+    \item สื่อสารได้อย่างตรงใจลูกค้า
+\end{itemize}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/chap4/persona/persona_1.png}
+    \captionsetup{name=รูป}
+    \caption{ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 1}
+    \label{fig:persona_1}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/chap4/persona/persona_2.png}
+    \captionsetup{name=รูป}
+    \caption{ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 2}
+    \label{fig:persona_2}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/chap4/persona/persona_3.png}
+    \captionsetup{name=รูป}
+    \caption{ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 3}
+    \label{fig:persona_3}
+\end{figure}
+
+\clearpage
+
+\subsection{User Journey Map}
+\label{subsec:user-journey-map}
+หรือ แผนภาพเส้นทางผู้ใช้ เป็นเครื่องมือที่ใช้อธิบายขั้นตอนและประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเรา ว่าผู้ใช้โต้ตอบอย่างไร พบปัญหาตรงไหน และจะปรับปรุงจุดใดได้บ้าง เพื่อให้ผู้ใช้ได้รับประสบการณ์ที่ดีขึ้น ซึ่งจะแสดงภาพรวมตั้งแต่จุดเริ่มต้นที่ผู้ใช้เริ่มสนใจไปจนถึงการบรรลุเป้าหมายโดยแบ่งเป็นช่วงเวลาและเหตุการณ์สำคัญต่าง ๆ โดยมีองค์ประกอบ ดังนี้\cite{journey}
+
+\begin{itemize}[leftmargin=4em]
+    \item \textbf{The User:} ผู้ใช้เป้าหมาย แรงจูงใจ และปัญหาที่พบ
+    \item \textbf{The Scenario & Objective:} สถานการณ์และวัตถุประสงค์เพื่ออธิบายว่าผู้ใช้กำลังพยายามทำอะไร
+    \item \textbf{Journey Phases:} ช่วงเส้นทางของผู้ใช้ โดยจะแบ่งออกเป็น 5 ช่วงหลัก ได้แก่
+    \item \textbf{Actions, Attitudes, and Emotions:} พฤติกรรมและอารมณ์ของผู้ใช้ในแต่ละช่วง
+    \item \textbf{Opportunities:} โอกาสในการปรับปรุง วิเคราะห์ข้อมูลที่ได้เพื่อหาทางปรับปรุง
+
+\begin{itemize}[leftmargin=6em]
+    \item \textbf{Awareness:} เริ่มรู้จักผลิตภัณฑ์
+    \item \textbf{Consideration:} พิจารณา
+    \item \textbf{Decision:} ตัดสินใจ
+    \item \textbf{Purchase:} ซื้อหรือใช้งาน
+    \item \textbf{Retention:} กลับมาใช้อีก
+\end{itemize}
+\end{itemize}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figures/chap4/user_journey/journey_1.png}
+    \captionsetup{name=รูป}
+    \caption{ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 1}
+    \label{fig:journey_1}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figures/chap4/user_journey/journey_2.png}
+    \captionsetup{name=รูป}
+    \caption{ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 2}
+    \label{fig:journey_2}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figures/chap4/user_journey/journey_3.png}
+    \captionsetup{name=รูป}
+    \caption{ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 3}
+    \label{fig:journey_3}
+\end{figure}
+
+\subsection{ปัญหาและแนวทางการแก้ไข}
+\label{subsec:problems-solutions}
+
+ผู้สูงอายุมักลืมทานยาหรือสับสนเรื่องชนิดและเวลาทานยา ปัญหานี้แก้ได้ด้วย:
+
+\begin{itemize}[leftmargin=4em]
+    \item ระบบแจ้งเตือนที่ตั้งเวลาได้ตามแพทย์กำหนด
+    \item ฐานข้อมูลยาที่ครบถ้วน เชื่อถือได้ และเข้าใจง่าย
+    \item UI ที่ชัดเจนและใช้งานง่ายสำหรับผู้สูงอายุ
+    \item ฟังก์ชัน Text-to-Speech และการแจ้งเตือนด้วยเสียง/สั่น/แสง
+    \item ความปลอดภัยของข้อมูลสุขภาพและการเชื่อมต่อกับอุปกรณ์สุขภาพอื่น ๆ
+\end{itemize}
+
+\subsection{การวิเคราะห์ความต้องการ (Requirement Analysis)}
+\label{subsec:requirement-analysis}
+
+\subsubsection{ความต้องการของผู้ใช้ (User Requirements)}
+รวบรวมฟังก์ชันที่ผู้ใช้ต้องการ ได้แก่
+
+\begin{itemize}[leftmargin=4em]
+    \item ระบบจัดการข้อมูลยา (เพิ่ม/แก้ไข/ลบ)
+    \item ระบบแจ้งเตือนการทานยาที่ตั้งเวลาได้
+    \item ระบบการสแกนข้อมูลยาจากฉลาก (Barcode \& OCR)
+    \item ระบบบันทึกประวัติการทานยาและอาการ
+    \item ระบบอำนวยความสะดวกสำหรับผู้สูงอายุ (Text-to-Speech)
+\end{itemize}
+
+\subsubsection{ความต้องการของระบบ (System Requirements)}
+กำหนดคุณสมบัติที่ระบบต้องมี ได้แก่
+
+\begin{itemize}[leftmargin=4em]
+    \item สามารถทำงานได้บน Android
+    \item มีความเร็วและความแม่นยำในการสแกนข้อมูล
+    \item มีการจัดเก็บข้อมูลผู้ใช้และข้อมูลยาอย่างปลอดภัย
+\end{itemize}
+
+\subsection{การออกแบบสถาปัตยกรรม (System Architecture Design)}
+\label{subsec:system-architecture}
+
+\subsubsection{Source}
+ข้อมูลต้นทางมาจาก สำนักพัฒนามาตรฐานระบบข้อมูลสุขภาพไทย \cite{tmt2013} ซึ่งเผยแพร่ข้อมูลในรูปแบบไฟล์ CSV ข้อมูลดังกล่าวจะถูกนำมาใช้เป็นแหล่งข้อมูลหลักของระบบ
+
+\subsubsection{Data Processing}
+ข้อมูลจากไฟล์ CSV จะถูกนำเข้าสู่กระบวนการประมวลผลด้วย PySpark \cite{pyspark2022} ซึ่งเป็นเครื่องมือที่เหมาะสำหรับการจัดการและประมวลผลข้อมูลขนาดใหญ่ (Big Data Processing) เพื่อจัดรูปแบบข้อมูลให้อยู่ในโครงสร้างที่เหมาะสมต่อการจัดเก็บและการนำไปใช้งานต่อไป
+
+\subsubsection{Database}
+หลังจากผ่านการประมวลผลแล้ว ข้อมูลจะถูกโหลดเข้าสู่ฐานข้อมูล PostgreSQL เพื่อจัดเก็บอย่างเป็นระบบและสามารถเข้าถึงได้อย่างมีประสิทธิภาพ
+
+\subsubsection{Backend Service}
+ใช้ Spring Boot Framework ในการพัฒนาเป็นบริการฝั่งเซิร์ฟเวอร์ (Backend Service) ทำหน้าที่เป็นตัวกลางระหว่างฐานข้อมูลและฝั่งผู้ใช้งาน โดยจัดการคำขอ (Request) จากฝั่ง Client รวมถึงประมวลผลและส่งข้อมูลกลับไปยังผู้ใช้งานในรูปแบบ API
+
+\subsubsection{Client Application}
+ส่วนของผู้ใช้งาน (Frontend) ถูกพัฒนาด้วย Dart และ Flutter ซึ่งเป็นเครื่องมือสำหรับพัฒนาแอปพลิเคชันแบบ Cross-platform เพื่อให้สามารถใช้งานได้ทั้งบนระบบปฏิบัติการ Android, iOS และ Web
+
+\subsubsection{System Deployment (kind Cluster)}
+สำหรับการทดสอบและจำลองสภาพแวดล้อมการทำงานของระบบบน Kubernetes ได้มีการใช้เครื่องมือ kind \cite{kind2025} (Kubernetes IN Docker) เพื่อสร้าง Kubernetes cluster จำลองบนเครื่องพัฒนา (Local Environment)
+
+โดย cluster ที่สร้างขึ้นจะประกอบด้วย container หลัก ได้แก่
+
+\begin{itemize}[leftmargin=4em]
+    \item Spring Boot Application Container
+    \item PostgreSQL Database Container
+\end{itemize}
+
+ซึ่งเชื่อมต่อกันผ่าน Kubernetes service ภายใน cluster
+
+การใช้ kind ช่วยให้สามารถจำลองขั้นตอนการ deploy ระบบจริง เช่น การสร้าง Pod, Service, และการ expose port ให้สามารถเข้าถึงได้จากภายนอก เหมือนการใช้งานบนสภาพแวดล้อม Cloud จริง ทั้งยังช่วยลดค่าใช้จ่ายและเวลาในการเตรียมระบบทดสอบอีกด้วย
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/chap4/architecture/architecture.png}
+    \captionsetup{name=รูป}
+    \caption{System Architecture Design}
+    \label{fig:system_architecture}
+\end{figure}
+
+\clearpage
+
+\subsection{การออกแบบฐานข้อมูล (Database Design)}
+\label{subsec:database-design}
+
+ฐานข้อมูลถูกออกแบบบน PostgreSQL ซึ่งเป็นฐานข้อมูลเชิงสัมพันธ์ (Relational Database) ที่มีความน่าเชื่อถือและเหมาะสมกับการจัดการข้อมูลที่มีโครงสร้างชัดเจน โครงสร้างหลัก (Tables) ที่ออกแบบไว้ประกอบด้วย:
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{users:} จัดเก็บข้อมูลของผู้ใช้
+    \item \textbf{master\_drugs:} ฐานข้อมูลยาหลัก
+    \item \textbf{medications:} จัดเก็บข้อมูลยาที่ผู้ใช้ทำการบันทึกไว้
+    \item \textbf{schedules:} จัดเก็บตารางเวลาการแจ้งเตือนการทานยา
+    \item \textbf{histories:} จัดเก็บประวัติการทานยาและอาการของผู้ใช้แต่ละคน
+\end{itemize}
+
+โดยแต่ละตารางจะมีการกำหนด Primary Key และ Foreign Key เพื่อเชื่อมโยงข้อมูลเข้าด้วยกันอย่างเป็นระบบและป้องกันข้อมูลซ้ำซ้อน
+
+\subsection{ขั้นตอนการออกแบบระบบ}
+\label{subsec:system-design-steps}
+
+\subsubsection{Entity Relationship Diagram (ERD)}
+อธิบายโครงสร้างระหว่างฐานข้อมูลในรูปแบบแผนภาพ โดยในโครงงานนี้ จะใช้ในแนวคิด ERD แบบ Crow’s Foot Notation ซึ่งจะประกอบไปด้วย \cite{erd2022}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Entity:} สิ่งของ บุคคล เหตุการณ์ หรือแนวคิดที่สามารถระบุได้ชัดเจน
+    \item \textbf{Relationship:} ความสัมพันธ์ระหว่างเอนทิตี
+    \item \textbf{Attributes:} คุณลักษณะของเอนทิตีหรือความสัมพันธ์
+    \item \textbf{Primary Key:} ใช้เพื่อระบุเอนทิตีอย่างไม่ซ้ำกัน
+    \item \textbf{Cardinality:} จำนวนขั้นต่ำและสูงสุดของความสัมพันธ์ระหว่างเอนทิตี เช่น คุณครู 1 คน มีสอนได้หลายวิชา
+\end{itemize}
+
+\subsubsubsection{สัญลักษณ์}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{○ (วงกลม):} Zero ซึ่งสามารถไม่มีค่าได้
+    \item \textbf{< (ขาแฉกสามง่าม):} Many หมายถึงมีได้หลายรายการ
+    \item \textbf{○<:} Zero or Many หมายถึงอาจไม่มีค่าได้หรือมีได้หลายรายการ
+    \item \textbf{1 (ขาแฉกเดียว):} One หมายถึงมีได้หนึ่งรายการเท่านั้น
+    \item \textbf{○1:} Zero or One หมายถึงอาจไม่มีค่าได้หรือมีได้หนึ่งรายการเท่านั้น
+\end{itemize}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figures/chap4/erd/entity_relationship_diagram.png}
+    \captionsetup{name=รูป}
+    \caption{Entity Relationship Diagram (ERD)}
+    \label{fig:erd}
+\end{figure}
+
+\clearpage
+
+\subsubsection{Functional Decomposition}
+ขั้นตอนการแบ่งระบบออกเป็นส่วนย่อย ๆ เพื่อให้ง่ายต่อการทำความเข้าใจ การวิเคราะห์ การพัฒนา และการนำไปใช้งาน
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figures/chap4/functional_decomposition/functional_decomposition.png}
+    \captionsetup{name=รูป}
+    \caption{Functional Decomposition}
+    \label{fig:functional_decomposition}
+\end{figure}
+
+\subsubsection{Data Flow Diagram Level 0}
+หรือ Context Diagram ใช้แสดงภาพรวมของระบบทั้งหมด
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/chap4/dfd_level_0/dfd_level_0.png}
+    \captionsetup{name=รูป}
+    \caption{Data Flow Diagram Level 0}
+    \label{fig:dfd_level_0}
+\end{figure}
+
+\clearpage
+
+\subsubsection{Data Flow Diagram Level 1}
+ใช้แสดงกระบวนการย่อย ๆ ภายในระบบ
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.95\textwidth]{figures/chap4/dfd_level_1/dfd_level_1.png}
+    \captionsetup{name=รูป}
+    \caption{Data Flow Diagram Level 1}
+    \label{fig:dfd_level_1}
+\end{figure}
+
+\subsubsection{Data Flow Diagram Level 2}
+ใช้ในการขยายข้อมูลจาก Data Flow Diagram ระดับ 1 ให้ละเอียดมากยิ่งขึ้น
+
+\paragraph{Manage User Information}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/chap4/dfd_level_2/dfd_level_2.1.png}
+    \captionsetup{name=รูป}
+    \caption{Data Flow Diagram Level 2.1 - Manage User Information}
+    \label{fig:dfd_level_2_1}
+\end{figure}
+
+\paragraph{OCR/ Barcode/ Text-To-Speech}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/chap4/dfd_level_2/dfd_level_2.2.png}
+    \captionsetup{name=รูป}
+    \caption{Data Flow Diagram Level 2.2 - OCR/ Barcode/ Text-To-Speech}
+    \label{fig:dfd_level_2_2}
+\end{figure}
+
+\paragraph{Medication Management}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/chap4/dfd_level_2/dfd_level_2.3.png}
+    \captionsetup{name=รูป}
+    \caption{Data Flow Diagram Level 2.3 - Medication Management}
+    \label{fig:dfd_level_2_3}
+\end{figure}
+
+\paragraph{Notification Management}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/chap4/dfd_level_2/dfd_level_2.4.png}
+    \captionsetup{name=รูป}
+    \caption{Data Flow Diagram Level 2.4 - Notification Management}
+    \label{fig:dfd_level_2_4}
+\end{figure}
+
+\paragraph{History Logging}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/chap4/dfd_level_2/dfd_level_2.5.png}
+    \captionsetup{name=รูป}
+    \caption{Data Flow Diagram Level 2.5 - History Logging}
+    \label{fig:dfd_level_2_5}
+\end{figure}
+
+\clearpage
+
+\section{การพัฒนาและติดตั้ง (Development and Implementation)}
+\label{sec:development-implementation}
+
+ขั้นตอนนี้จะเปลี่ยนการออกแบบให้กลายเป็นแอปพลิเคชันที่สามารถใช้งานได้จริง
+
+\subsection{เครื่องมือและสภาพแวดล้อมในการพัฒนา}
+\label{subsec:development-tools}
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{ภาษาโปรแกรม:} Dart (สำหรับ Frontend), Java (สำหรับ Backend)
+    \item \textbf{Framework:} Flutter, Spring Boot
+    \item \textbf{IDE (Integrated Development Environment):} Android Studio และ Visual Studio Code สำหรับ Flutter, IntelliJ IDEA สำหรับ Spring Boot
+    \item \textbf{ฐานข้อมูล:} PostgreSQL
+    \item \textbf{Plugins/Libraries ที่ใช้:}
+    \begin{itemize}[leftmargin=2em]
+        \item \texttt{flutter\_local\_notifications:} สำหรับระบบแจ้งเตือน
+        \item \texttt{flutter\_tesseract\_ocr:} สำหรับฟังก์ชัน OCR
+        \item \texttt{mobile\_scanner:} สำหรับการสแกน Barcode
+        \item \texttt{flutter\_tts:} สำหรับฟังก์ชัน Text-to-Speech
+    \end{itemize}
+\end{itemize}
+
+\subsection{ขั้นตอนการพัฒนา}
+\label{subsec:development-steps}
+
+\subsubsection{การพัฒนา UI/UX}
+ออกแบบและสร้างหน้าจอการใช้งานตามหลัก Human-Computer Interaction (HCI) ที่เหมาะสมกับผู้สูงอายุ เช่น ใช้ขนาดตัวอักษรที่ใหญ่, สีสันที่ตัดกันชัดเจน และมีปุ่มกดที่ชัดเจน
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/chap4/figma/figma.png}
+    \captionsetup{name=รูป}
+    \caption{ออกแบบ UI/UX ของ Application}
+    \label{fig:ui_design}
+\end{figure}
+
+\subsubsection{การพัฒนา API Backend}
+สร้าง RESTful API ด้วย Spring Boot เพื่อจัดการคำขอจากแอปพลิเคชัน (Client) และเชื่อมต่อกับฐานข้อมูล PostgreSQL
+
+\section{การทดสอบและการประเมินผล}
+\label{sec:testing-evaluation}
+
+การทดสอบมีความสำคัญเพื่อรับประกันว่าแอปพลิเคชันทำงานได้อย่างถูกต้องและมีคุณภาพ
+
+\subsection{การทดสอบระบบ (System Testing)}
+\label{subsec:system-testing}
+
+ทดสอบการทำงานของฟังก์ชันหลักทั้งหมด ตั้งแต่การเข้าสู่ระบบไปจนถึงการใช้งานฟีเจอร์ต่างๆ เพื่อหาข้อผิดพลาด
+
+\subsection{การทดสอบประสิทธิภาพ (Performance Testing)}
+\label{subsec:performance-testing}
+
+วัดความเร็วและความแม่นยำของฟังก์ชันสำคัญ เช่น ความเร็วในการสแกน Barcode และ OCR
+
+\subsection{การทดสอบการยอมรับจากผู้ใช้ (User Acceptance Testing - UAT)}
+\label{subsec:uat}
+
+นำแอปพลิเคชันไปให้กลุ่มผู้สูงอายุทดลองใช้จริง เพื่อรวบรวมข้อเสนอแนะและปัญหาที่พบจากการใช้งาน ซึ่งจะนำไปสู่การปรับปรุงในเวอร์ชันต่อไป
