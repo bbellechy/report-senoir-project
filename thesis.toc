@@ -8,6 +8,12 @@
 \thispagestyle {fancy}
 \fancyhead [L]{}
 \fancyhead [R]{\thepage }
+\renewcommand {\@dotsep }{400}
+\contentsline {chapter}{LIST OF FIGURES}{vii}{section*.4}%
+\renewcommand {\@dotsep }{0.5}
+\renewcommand {\@dotsep }{400}
+\contentsline {chapter}{LIST OF TABLES}{viii}{section*.6}%
+\renewcommand {\@dotsep }{0.5}
 \vspace *{0.7\baselineskip }
 \contentsline {chapter}{\nocolonnumberline {\bfseries 1}\bfseries \MakeUppercase []{บทนำ}}{1}{chapter.1}%
 \contentsline {section}{\nocolonnumberline {1.1}\MakeUppercase []{ที่มาและความสำคัญของปัญหา}}{1}{section.1.1}%
@@ -19,12 +25,11 @@
 \contentsline {subsection}{\nocolonnumberline {1.3.4}\MakeUppercase []{เครื่องมือเสริม}}{2}{subsection.1.3.4}%
 \contentsline {subsection}{\nocolonnumberline {1.3.5}\MakeUppercase []{ด้านการศึกษา}}{3}{subsection.1.3.5}%
 \contentsline {section}{\nocolonnumberline {1.4}\MakeUppercase []{ขั้นตอนการดำเนินงาน}}{3}{section.1.4}%
-\contentsline {subsection}{\nocolonnumberline {1.4.1}\MakeUppercase []{ขั้นตอนที่ 1: การรวบรวมปัญหาและวิเคราะห์ความต้องการของผู้ใช้งาน}}{3}{subsection.1.4.1}%
-\contentsline {subsection}{\nocolonnumberline {1.4.2}\MakeUppercase []{ขั้นตอนที่ 2: การออกแบบและพัฒนาระบบในส่วนของหน้าบ้าน (Frontend)}}{3}{subsection.1.4.2}%
+\contentsline {subsection}{\nocolonnumberline {1.4.1}\MakeUppercase []{ขั้นตอนที่ 1: การรวบรวมปัญหา วิเคราะห์ความต้องการของผู้ใช้งานและการออกแบบ}}{3}{subsection.1.4.1}%
+\contentsline {subsection}{\nocolonnumberline {1.4.2}\MakeUppercase []{ขั้นตอนที่ 2: พัฒนาระบบในส่วนของหน้าบ้าน (Frontend)}}{4}{subsection.1.4.2}%
 \contentsline {subsection}{\nocolonnumberline {1.4.3}\MakeUppercase []{ขั้นตอนที่ 3: การพัฒนาระบบในส่วนของหลังบ้าน (Backend)}}{4}{subsection.1.4.3}%
 \contentsline {subsection}{\nocolonnumberline {1.4.4}\MakeUppercase []{ขั้นตอนที่ 4: การศึกษาและพัฒนา Data Pipeline ด้วย PySpark และ Kind}}{4}{subsection.1.4.4}%
-\contentsline {subsection}{\nocolonnumberline {1.4.5}\MakeUppercase []{ขั้นตอนที่ 5: การทดสอบและปรับปรุงระบบ}}{4}{subsection.1.4.5}%
-\contentsline {subsection}{\nocolonnumberline {1.4.6}\MakeUppercase []{ขั้นตอนที่ 6: การจัดทำเอกสารและนำเสนอ}}{4}{subsection.1.4.6}%
+\contentsline {subsection}{\nocolonnumberline {1.4.5}\MakeUppercase []{ขั้นตอนที่ 5: การทดสอบและปรับปรุงระบบ}}{5}{subsection.1.4.5}%
 \contentsline {section}{\nocolonnumberline {1.5}\MakeUppercase []{ประโยชน์ที่คาดว่าจะได้รับ}}{5}{section.1.5}%
 \contentsline {chapter}{\nocolonnumberline {\bfseries 2}\bfseries \MakeUppercase []{ทฤษฎีที่เกี่ยวข้อง}}{6}{chapter.2}%
 \contentsline {section}{\nocolonnumberline {2.1}\MakeUppercase []{สังคมสูงวัย (Aged Society และ Super-Aged Society)}}{6}{section.2.1}%
@@ -33,17 +38,17 @@
 \contentsline {section}{\nocolonnumberline {2.4}\MakeUppercase []{การจัดการการใช้ยา}}{6}{section.2.4}%
 \contentsline {section}{\nocolonnumberline {2.5}\MakeUppercase []{พื้นฐานและการออกแบบฐานข้อมูล}}{7}{section.2.5}%
 \contentsline {section}{\nocolonnumberline {2.6}\MakeUppercase []{Optical Character Recognition (OCR)}}{7}{section.2.6}%
-\contentsline {subsubsection}{\MakeUppercase []{ประเภทของ OCR}}{7}{section*.5}%
-\contentsline {subsubsection}{\MakeUppercase []{ข้อดีของ OCR}}{7}{section*.6}%
+\contentsline {subsubsection}{\MakeUppercase []{ประเภทของ OCR}}{7}{section*.9}%
+\contentsline {subsubsection}{\MakeUppercase []{ข้อดีของ OCR}}{7}{section*.10}%
 \contentsline {section}{\nocolonnumberline {2.7}\MakeUppercase []{PostgreSQL}}{8}{section.2.7}%
 \contentsline {subsection}{\nocolonnumberline {2.7.1}\MakeUppercase []{คุณสมบัติที่สำคัญ}}{8}{subsection.2.7.1}%
-\contentsline {subsubsection}{\MakeUppercase []{รองรับข้อมูลที่หลากหลาย}}{8}{section*.7}%
-\contentsline {subsubsection}{\MakeUppercase []{การทำงานแบบ Multi-Version Concurrency Control (MVCC)}}{9}{section*.8}%
+\contentsline {subsubsection}{\MakeUppercase []{รองรับข้อมูลที่หลากหลาย}}{8}{section*.11}%
+\contentsline {subsubsection}{\MakeUppercase []{การทำงานแบบ Multi-Version Concurrency Control (MVCC)}}{9}{section*.12}%
 \contentsline {subsection}{\nocolonnumberline {2.7.2}\MakeUppercase []{ประโยชน์ของ PostgreSQL}}{9}{subsection.2.7.2}%
 \contentsline {section}{\nocolonnumberline {2.8}\MakeUppercase []{สถาปัตยกรรมแบบ Client-Server (Client-Server Architecture)}}{9}{section.2.8}%
 \contentsline {subsection}{\nocolonnumberline {2.8.1}\MakeUppercase []{องค์ประกอบหลัก}}{9}{subsection.2.8.1}%
-\contentsline {subsubsection}{\MakeUppercase []{Client (ฝั่งผู้ใช้)}}{9}{section*.9}%
-\contentsline {subsubsection}{\MakeUppercase []{Server (ฝั่งเซิร์ฟเวอร์)}}{9}{section*.10}%
+\contentsline {subsubsection}{\MakeUppercase []{Client (ฝั่งผู้ใช้)}}{9}{section*.13}%
+\contentsline {subsubsection}{\MakeUppercase []{Server (ฝั่งเซิร์ฟเวอร์)}}{9}{section*.14}%
 \contentsline {subsection}{\nocolonnumberline {2.8.2}\MakeUppercase []{การทำงานของระบบ Client-Server ในโครงงาน}}{10}{subsection.2.8.2}%
 \contentsline {subsection}{\nocolonnumberline {2.8.3}\MakeUppercase []{ข้อดีของสถาปัตยกรรม Client-Server}}{10}{subsection.2.8.3}%
 \contentsline {subsection}{\nocolonnumberline {2.8.4}\MakeUppercase []{การประยุกต์ใช้ในโครงงาน}}{10}{subsection.2.8.4}%
@@ -52,92 +57,77 @@
 \contentsline {subsection}{\nocolonnumberline {2.9.2}\MakeUppercase []{การใช้งานในโครงงาน}}{11}{subsection.2.9.2}%
 \contentsline {section}{\nocolonnumberline {2.10}\MakeUppercase []{Flutter Framework}}{11}{section.2.10}%
 \contentsline {subsection}{\nocolonnumberline {2.10.1}\MakeUppercase []{เปรียบเทียบการพัฒนาแอปแบบเนทีฟ (Native) และข้ามแพลตฟอร์ม (Cross-platform)}}{11}{subsection.2.10.1}%
-\contentsline {subsubsection}{\MakeUppercase []{Native}}{12}{section*.11}%
-\contentsline {subsubsection}{\MakeUppercase []{Cross-platform}}{12}{section*.12}%
+\contentsline {subsubsection}{\MakeUppercase []{Native}}{11}{section*.15}%
+\contentsline {subsubsection}{\MakeUppercase []{Cross-platform}}{12}{section*.16}%
 \contentsline {subsection}{\nocolonnumberline {2.10.2}\MakeUppercase []{ข้อดีของ Flutter}}{12}{subsection.2.10.2}%
 \contentsline {subsection}{\nocolonnumberline {2.10.3}\MakeUppercase []{Flutter Text-to-Speech (TTS) Plugin}}{12}{subsection.2.10.3}%
-\contentsline {subsubsection}{\MakeUppercase []{คุณสมบัติหลัก}}{12}{section*.13}%
-\contentsline {subsubsection}{\MakeUppercase []{ข้อดี}}{13}{section*.14}%
+\contentsline {subsubsection}{\MakeUppercase []{คุณสมบัติหลัก}}{12}{section*.17}%
+\contentsline {subsubsection}{\MakeUppercase []{ข้อดี}}{13}{section*.18}%
 \contentsline {subsection}{\nocolonnumberline {2.10.4}\MakeUppercase []{flutter\textunderscore local\textunderscore notifications}}{13}{subsection.2.10.4}%
-\contentsline {subsubsection}{\MakeUppercase []{คุณสมบัติหลัก}}{13}{section*.15}%
+\contentsline {subsubsection}{\MakeUppercase []{คุณสมบัติหลัก}}{13}{section*.19}%
 \contentsline {subsection}{\nocolonnumberline {2.10.5}\MakeUppercase []{google\textunderscore mlkit\textunderscore text\textunderscore recognition}}{13}{subsection.2.10.5}%
-\contentsline {subsubsection}{\MakeUppercase []{ข้อดี}}{13}{section*.16}%
-\contentsline {subsubsection}{\MakeUppercase []{คุณสมบัติเด่น}}{14}{section*.17}%
-\contentsline {subsection}{\nocolonnumberline {2.10.6}\MakeUppercase []{mobile\textunderscore scanner plugin}}{14}{subsection.2.10.6}%
-\contentsline {subsubsection}{\MakeUppercase []{คุณสมบัติเด่น}}{14}{section*.18}%
+\contentsline {subsubsection}{\MakeUppercase []{ข้อดี}}{13}{section*.20}%
+\contentsline {subsubsection}{\MakeUppercase []{คุณสมบัติเด่น}}{13}{section*.21}%
+\contentsline {subsection}{\nocolonnumberline {2.10.6}\MakeUppercase []{mobile\textunderscore scanner plugin}}{13}{subsection.2.10.6}%
+\contentsline {subsubsection}{\MakeUppercase []{คุณสมบัติเด่น}}{14}{section*.22}%
 \contentsline {section}{\nocolonnumberline {2.11}\MakeUppercase []{Dart}}{14}{section.2.11}%
 \contentsline {subsection}{\nocolonnumberline {2.11.1}\MakeUppercase []{คุณสมบัติเด่นของ Dart}}{14}{subsection.2.11.1}%
-\contentsline {section}{\nocolonnumberline {2.12}\MakeUppercase []{คำศัพท์}}{15}{section.2.12}%
+\contentsline {section}{\nocolonnumberline {2.12}\MakeUppercase []{คำศัพท์}}{14}{section.2.12}%
 \contentsline {chapter}{\nocolonnumberline {\bfseries 3}\bfseries \MakeUppercase []{ผลงานที่เกี่ยวข้อง}}{16}{chapter.3}%
 \contentsline {section}{\nocolonnumberline {3.1}\MakeUppercase []{แอปพลิเคชันช่วยอ่านฉลากยาโดยเฉพาะฟังก์ชันที่ช่วยให้อ่านข้อมูลยาได้ง่ายขึ้นอย่างชัดเจน}}{16}{section.3.1}%
 \contentsline {section}{\nocolonnumberline {3.2}\MakeUppercase []{แอปพลิเคชันบน LINE LIFF ร่วมกับ Google Apps Script สำหรับติดตามและประเมินผลความสม่ำเสมอในการรับประทานยาของผู้ป่วยวัณโรค โรงพยาบาลชัยนาทนเรนทร}}{16}{section.3.2}%
 \contentsline {section}{\nocolonnumberline {3.3}\MakeUppercase []{โครงการวิจัยเรื่อง เทคโนโลยีเภสัชสารสนเทศแสดงข้อมูลฉลากยาเอกสารกํากับยาแบบอัตโนมัติสําหรับ บริหารจัดการคลังยาปฎิชีวนะเพื่อความปลอดภัย}}{17}{section.3.3}%
 \contentsline {section}{\nocolonnumberline {3.4}\MakeUppercase []{การเปรียบเทียบแอปพลิเคชันที่มีอยู่ในตลาด}}{18}{section.3.4}%
 \contentsline {subsection}{\nocolonnumberline {3.4.1}\MakeUppercase []{ตารางเปรียบเทียบแอปพลิเคชันในตลาด}}{18}{subsection.3.4.1}%
-\contentsline {subsubsection}{\MakeUppercase []{ข้อได้เปรียบของ CapYaDoo}}{18}{section*.20}%
-\contentsline {subsubsection}{\MakeUppercase []{จุดเด่นที่เหมือนกัน}}{19}{section*.21}%
-\contentsline {subsection}{\nocolonnumberline {3.4.2}\MakeUppercase []{สรุปการเปรียบเทียบ}}{19}{subsection.3.4.2}%
-\contentsline {subsection}{\nocolonnumberline {3.4.3}\MakeUppercase []{การวิเคราะห์ช่องว่างในตลาด}}{20}{subsection.3.4.3}%
-\contentsline {section}{\nocolonnumberline {3.5}\MakeUppercase []{ประสบการณ์การพัฒนาที่ผ่านมา}}{20}{section.3.5}%
-\contentsline {subsection}{\nocolonnumberline {3.5.1}\MakeUppercase []{Application Chat Music Player}}{20}{subsection.3.5.1}%
-\contentsline {subsection}{\nocolonnumberline {3.5.2}\MakeUppercase []{Application Location Discovery}}{21}{subsection.3.5.2}%
-\contentsline {subsection}{\nocolonnumberline {3.5.3}\MakeUppercase []{บทเรียนที่ได้จากประสบการณ์การพัฒนา}}{21}{subsection.3.5.3}%
-\contentsline {subsubsection}{\MakeUppercase []{ด้านการออกแบบ UI/UX}}{21}{section*.22}%
-\contentsline {subsubsection}{\MakeUppercase []{ด้านการพัฒนาแอปพลิเคชัน}}{21}{section*.23}%
-\contentsline {subsubsection}{\MakeUppercase []{ด้านการจัดการฐานข้อมูล}}{21}{section*.24}%
-\contentsline {subsubsection}{\MakeUppercase []{ด้านการทำงานเป็นทีม}}{22}{section*.25}%
-\contentsline {section}{\nocolonnumberline {3.6}\MakeUppercase []{สรุปและการนำไปประยุกต์ใช้}}{22}{section.3.6}%
-\contentsline {subsection}{\nocolonnumberline {3.6.1}\MakeUppercase []{แนวทางการพัฒนาที่ได้จากงานวิจัย}}{22}{subsection.3.6.1}%
-\contentsline {subsection}{\nocolonnumberline {3.6.2}\MakeUppercase []{ข้อจำกัดที่ต้องหลีกเลี่ยง}}{22}{subsection.3.6.2}%
-\contentsline {subsection}{\nocolonnumberline {3.6.3}\MakeUppercase []{คุณสมบัติที่จะนำมาพัฒนาในโครงงาน}}{22}{subsection.3.6.3}%
+\contentsline {subsubsection}{\MakeUppercase []{ข้อได้เปรียบของ CapYaDoo}}{19}{section*.24}%
+\contentsline {subsubsection}{\MakeUppercase []{จุดเด่นที่เหมือนกัน}}{20}{section*.25}%
+\contentsline {subsection}{\nocolonnumberline {3.4.2}\MakeUppercase []{สรุปการเปรียบเทียบ}}{20}{subsection.3.4.2}%
+\contentsline {section}{\nocolonnumberline {3.5}\MakeUppercase []{สรุปและการนำไปประยุกต์ใช้}}{20}{section.3.5}%
+\contentsline {subsection}{\nocolonnumberline {3.5.1}\MakeUppercase []{แนวทางการพัฒนาที่ได้จากงานวิจัย}}{20}{subsection.3.5.1}%
+\contentsline {subsection}{\nocolonnumberline {3.5.2}\MakeUppercase []{ข้อจำกัดที่ต้องหลีกเลี่ยง}}{20}{subsection.3.5.2}%
+\contentsline {subsection}{\nocolonnumberline {3.5.3}\MakeUppercase []{คุณสมบัติที่จะนำมาพัฒนาในโครงงาน}}{21}{subsection.3.5.3}%
+\contentsline {section}{\nocolonnumberline {3.6}\MakeUppercase []{ประสบการณ์การพัฒนาที่ผ่านมา}}{21}{section.3.6}%
+\contentsline {subsection}{\nocolonnumberline {3.6.1}\MakeUppercase []{Application Chat Music Player}}{21}{subsection.3.6.1}%
+\contentsline {subsection}{\nocolonnumberline {3.6.2}\MakeUppercase []{Application Location Discovery}}{22}{subsection.3.6.2}%
+\contentsline {subsection}{\nocolonnumberline {3.6.3}\MakeUppercase []{บทเรียนที่ได้จากประสบการณ์การพัฒนา}}{22}{subsection.3.6.3}%
+\contentsline {subsubsection}{\MakeUppercase []{ด้านการออกแบบ UI/UX}}{22}{section*.26}%
+\contentsline {subsubsection}{\MakeUppercase []{ด้านการพัฒนาแอปพลิเคชัน}}{22}{section*.27}%
+\contentsline {subsubsection}{\MakeUppercase []{ด้านการจัดการฐานข้อมูล}}{22}{section*.28}%
+\contentsline {subsubsection}{\MakeUppercase []{ด้านการทำงานเป็นทีม}}{23}{section*.29}%
 \contentsline {chapter}{\nocolonnumberline {\bfseries 4}\bfseries \MakeUppercase []{ระเบียบวิธีดำเนินโครงงาน}}{24}{chapter.4}%
 \contentsline {section}{\nocolonnumberline {4.1}\MakeUppercase []{การวิเคราะห์และออกแบบระบบ}}{24}{section.4.1}%
 \contentsline {subsection}{\nocolonnumberline {4.1.1}\MakeUppercase []{Persona}}{24}{subsection.4.1.1}%
-\contentsline {subsubsection}{\MakeUppercase []{ความสำคัญของ Persona}}{24}{section*.26}%
+\contentsline {subsubsection}{\MakeUppercase []{ความสำคัญของ Persona}}{24}{section*.30}%
 \contentsline {subsection}{\nocolonnumberline {4.1.2}\MakeUppercase []{User Journey Map}}{26}{subsection.4.1.2}%
 \contentsline {subsection}{\nocolonnumberline {4.1.3}\MakeUppercase []{ปัญหาและแนวทางการแก้ไข}}{26}{subsection.4.1.3}%
-\contentsline {subsection}{\nocolonnumberline {4.1.4}\MakeUppercase []{การวิเคราะห์ความต้องการ (Requirement Analysis)}}{26}{subsection.4.1.4}%
-\contentsline {subsubsection}{\MakeUppercase []{ความต้องการของผู้ใช้ (User Requirements)}}{26}{section*.33}%
-\contentsline {subsubsection}{\MakeUppercase []{ความต้องการของระบบ (System Requirements)}}{28}{section*.34}%
+\contentsline {subsection}{\nocolonnumberline {4.1.4}\MakeUppercase []{การวิเคราะห์ความต้องการ (Requirement Analysis)}}{27}{subsection.4.1.4}%
+\contentsline {subsubsection}{\MakeUppercase []{ความต้องการของผู้ใช้ (User Requirements)}}{27}{section*.37}%
+\contentsline {subsubsection}{\MakeUppercase []{ความต้องการของระบบ (System Requirements)}}{28}{section*.38}%
 \contentsline {subsection}{\nocolonnumberline {4.1.5}\MakeUppercase []{การออกแบบสถาปัตยกรรม (System Architecture Design)}}{28}{subsection.4.1.5}%
-\contentsline {subsubsection}{\MakeUppercase []{Source}}{28}{section*.35}%
-\contentsline {subsubsection}{\MakeUppercase []{Data Processing}}{28}{section*.36}%
-\contentsline {subsubsection}{\MakeUppercase []{Database}}{29}{section*.37}%
-\contentsline {subsubsection}{\MakeUppercase []{Backend Service}}{29}{section*.38}%
-\contentsline {subsubsection}{\MakeUppercase []{Client Application}}{29}{section*.39}%
-\contentsline {subsubsection}{\MakeUppercase []{System Deployment (kind Cluster)}}{29}{section*.40}%
-\contentsline {subsection}{\nocolonnumberline {4.1.6}\MakeUppercase []{การออกแบบฐานข้อมูล (Database Design)}}{31}{subsection.4.1.6}%
-\contentsline {subsection}{\nocolonnumberline {4.1.7}\MakeUppercase []{ขั้นตอนการออกแบบระบบ}}{31}{subsection.4.1.7}%
-\contentsline {subsubsection}{\MakeUppercase []{Entity Relationship Diagram (ERD)}}{31}{section*.42}%
-\contentsline {subsubsection}{\MakeUppercase []{Functional Decomposition}}{33}{section*.44}%
-\contentsline {subsubsection}{\MakeUppercase []{Data Flow Diagram Level 0}}{34}{section*.46}%
-\contentsline {subsubsection}{\MakeUppercase []{Data Flow Diagram Level 1}}{36}{section*.48}%
-\contentsline {subsubsection}{\MakeUppercase []{Data Flow Diagram Level 2}}{37}{section*.50}%
-\contentsline {paragraph}{Manage User Information}{38}{section*.52}%
-\contentsline {paragraph}{OCR/ Barcode/ Text-To-Speech}{39}{section*.54}%
-\contentsline {paragraph}{Medication Management}{40}{section*.56}%
-\contentsline {paragraph}{Notification Management}{41}{section*.58}%
-\contentsline {paragraph}{History Logging}{42}{section*.60}%
-\contentsline {section}{\nocolonnumberline {4.2}\MakeUppercase []{การพัฒนาและติดตั้ง (Development and Implementation)}}{43}{section.4.2}%
-\contentsline {subsection}{\nocolonnumberline {4.2.1}\MakeUppercase []{เครื่องมือและสภาพแวดล้อมในการพัฒนา}}{43}{subsection.4.2.1}%
-\contentsline {subsection}{\nocolonnumberline {4.2.2}\MakeUppercase []{ขั้นตอนการพัฒนา}}{43}{subsection.4.2.2}%
-\contentsline {subsubsection}{\MakeUppercase []{การพัฒนา UI/UX}}{43}{section*.61}%
-\contentsline {subsubsection}{\MakeUppercase []{การพัฒนา API Backend}}{43}{section*.63}%
-\contentsline {section}{\nocolonnumberline {4.3}\MakeUppercase []{การทดสอบและการประเมินผล}}{44}{section.4.3}%
-\contentsline {subsection}{\nocolonnumberline {4.3.1}\MakeUppercase []{การทดสอบระบบ (System Testing)}}{44}{subsection.4.3.1}%
-\contentsline {subsection}{\nocolonnumberline {4.3.2}\MakeUppercase []{การทดสอบประสิทธิภาพ (Performance Testing)}}{44}{subsection.4.3.2}%
-\contentsline {subsection}{\nocolonnumberline {4.3.3}\MakeUppercase []{การทดสอบการยอมรับจากผู้ใช้ (User Acceptance Testing - UAT)}}{45}{subsection.4.3.3}%
-\contentsline {chapter}{\nocolonnumberline {\bfseries 5}\bfseries \MakeUppercase []{การประเมินผล}}{46}{chapter.5}%
-\contentsline {chapter}{\nocolonnumberline {\bfseries 6}\bfseries \MakeUppercase []{สรุปและข้อเสนอแนะ}}{47}{chapter.6}%
+\contentsline {subsection}{\nocolonnumberline {4.1.6}\MakeUppercase []{การออกแบบฐานข้อมูล (Database Design)}}{29}{subsection.4.1.6}%
+\contentsline {subsection}{\nocolonnumberline {4.1.7}\MakeUppercase []{ขั้นตอนการออกแบบระบบ}}{29}{subsection.4.1.7}%
+\contentsline {section}{\nocolonnumberline {4.2}\MakeUppercase []{การพัฒนาและติดตั้ง (Development and Implementation)}}{36}{section.4.2}%
+\contentsline {subsection}{\nocolonnumberline {4.2.1}\MakeUppercase []{เครื่องมือและสภาพแวดล้อมในการพัฒนา}}{36}{subsection.4.2.1}%
+\contentsline {subsection}{\nocolonnumberline {4.2.2}\MakeUppercase []{ขั้นตอนการพัฒนา}}{36}{subsection.4.2.2}%
+\contentsline {subsubsection}{\MakeUppercase []{การพัฒนาในส่วนของหน้าบ้าน (Frontend Development)}}{37}{section*.50}%
+\contentsline {subsubsection}{\MakeUppercase []{การพัฒนาในส่วนของหลังบ้าน (Backend Development)}}{37}{section*.51}%
+\contentsline {subsubsection}{\MakeUppercase []{การสร้างและประมวลผลข้อมูลยา (Data Pipeline Development)}}{37}{section*.52}%
+\contentsline {subsubsection}{\MakeUppercase []{การจำลองและติดตั้งระบบด้วย Kind (Kubernetes in Docker)}}{38}{section*.53}%
+\contentsline {section}{\nocolonnumberline {4.3}\MakeUppercase []{การทดสอบและการประเมินผล}}{38}{section.4.3}%
+\contentsline {subsection}{\nocolonnumberline {4.3.1}\MakeUppercase []{การทดสอบระบบ (System Testing)}}{38}{subsection.4.3.1}%
+\contentsline {subsection}{\nocolonnumberline {4.3.2}\MakeUppercase []{การทดสอบประสิทธิภาพ (Performance Testing)}}{38}{subsection.4.3.2}%
+\contentsline {subsection}{\nocolonnumberline {4.3.3}\MakeUppercase []{การทดสอบการยอมรับจากผู้ใช้ (User Acceptance Testing - UAT)}}{38}{subsection.4.3.3}%
+\contentsline {chapter}{\nocolonnumberline {\bfseries 5}\bfseries \MakeUppercase []{การประเมินผล}}{39}{chapter.5}%
+\contentsline {chapter}{\nocolonnumberline {\bfseries 6}\bfseries \MakeUppercase []{สรุปและข้อเสนอแนะ}}{40}{chapter.6}%
 \setcounter {tocdepth}{0}
 \renewcommand {\@dotsep }{400}
-\contentsline {chapter}{เอกสารอ้างอิง}{48}{chapter.6}%
+\contentsline {chapter}{เอกสารอ้างอิง}{41}{chapter.6}%
 \renewcommand {\@dotsep }{400}
-\contentsline {chapter}{ข้อความเปิดเผยการใช้เทคโนโลยีปัญญาประดิษฐ์}{50}{section*.65}%
+\contentsline {chapter}{ข้อความเปิดเผยการใช้เทคโนโลยีปัญญาประดิษฐ์}{43}{section*.55}%
 \renewcommand {\@dotsep }{0.5}
 \setcounter {tocdepth}{0}
 \renewcommand {\@dotsep }{400}
-\contentsline {chapter}{ภาคผนวก ก}{51}{appendix.1}%
+\contentsline {chapter}{ภาคผนวก ก}{44}{appendix.1}%
 \setcounter {tocdepth}{0}
 \renewcommand {\@dotsep }{400}
-\contentsline {chapter}{ภาคผนวก ข}{52}{appendix.2}%
+\contentsline {chapter}{ภาคผนวก ข}{45}{appendix.2}%

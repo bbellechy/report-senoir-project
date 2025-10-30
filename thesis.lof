@@ -1,0 +1,19 @@
+\renewcommand {\@dotsep }{0.5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \xpg@aux {}{english}\ignorespaces แผนการดำเนินโครงงาน}}{5}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \xpg@aux {}{english}\ignorespaces ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 1}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \xpg@aux {}{english}\ignorespaces ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 2}}{25}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \xpg@aux {}{english}\ignorespaces ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 3}}{25}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \xpg@aux {}{english}\ignorespaces ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 1}}{26}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \xpg@aux {}{english}\ignorespaces ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 2}}{26}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \xpg@aux {}{english}\ignorespaces ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 3}}{27}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \xpg@aux {}{english}\ignorespaces System Architecture Design}}{29}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \xpg@aux {}{english}\ignorespaces ออกแบบ UX/UI ของ Application}}{30}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \xpg@aux {}{english}\ignorespaces Entity Relationship Diagram (ERD)}}{31}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \xpg@aux {}{english}\ignorespaces Functional Decomposition}}{32}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 0}}{32}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 1}}{33}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.1 - Manage User Information}}{34}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.2 - OCR/ Barcode/ Text-To-Speech}}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.3 - Medication Management}}{35}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.4 - Notification Management}}{35}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.5 - History Logging}}{36}{figure.caption.49}%
