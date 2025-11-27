@@ -9,76 +9,87 @@ Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: reference.bib
-Warning--I didn't find a database entry for "ageing2023"
+Warning--empty author and editor in anamai2025
+Warning--missing publisher in anamai2025
 Warning--empty author and editor in ncd2014
 Warning--missing publisher in ncd2014
-Warning--empty author and editor in ocr2025
-Warning--missing publisher in ocr2025
-Warning--empty author and editor in thaijournal2023
-Warning--missing publisher in thaijournal2023
 Warning--empty author and editor in hci
 Warning--missing publisher in hci
-Warning--there's a month but no year in hci
 Warning--empty author and editor in database2022
 Warning--missing publisher in database2022
-Warning--empty author and editor in flutter2024
-Warning--missing publisher in flutter2024
-Warning--empty author and editor in dart2024
-Warning--missing publisher in dart2024
+Warning--empty author and editor in ocr2025
+Warning--missing publisher in ocr2025
 Warning--empty author and editor in springboot2024
 Warning--missing publisher in springboot2024
+Warning--empty author and editor in flutter2024
+Warning--missing publisher in flutter2024
+Warning--empty author and editor in oracle2025
+Warning--missing publisher in oracle2025
+Warning--empty author and editor in dart2024
+Warning--missing publisher in dart2024
+Warning--empty author and editor in agile2025
+Warning--missing publisher in agile2025
+Warning--empty author and editor in thaijournal2023
+Warning--missing publisher in thaijournal2023
+Warning--empty author and editor in linelife2025
+Warning--missing publisher in linelife2025
+Warning--empty author and editor in automicpharmacy2018
+Warning--missing publisher in automicpharmacy2018
+Warning--empty author and editor in pharmasee
+Warning--missing publisher in pharmasee
+Warning--empty author and editor in myyaandyou
+Warning--missing publisher in myyaandyou
+Warning--empty author and editor in medisafe
+Warning--missing publisher in medisafe
+Warning--empty author and editor in rdu
+Warning--missing publisher in rdu
 Warning--empty author and editor in persona2023
 Warning--missing publisher in persona2023
 Warning--empty author and editor in journey
 Warning--missing publisher in journey
-Warning--there's a month but no year in journey
-Warning--empty author and editor in tmt2013
-Warning--missing publisher in tmt2013
-Warning--empty author and editor in pyspark2022
-Warning--missing publisher in pyspark2022
-Warning--empty author and editor in kind2025
-Warning--missing publisher in kind2025
-Warning--empty author and editor in erd2022
-Warning--missing publisher in erd2022
-You've used 14 entries,
+Warning--empty author and editor in erd
+Warning--missing publisher in erd
+Warning--empty author and editor in figma
+Warning--missing publisher in figma
+You've used 21 entries,
             3222 wiz_defined-function locations,
-            727 strings with 7144 characters,
-and the built_in function-call counts, 8111 in all, are:
-= -- 829
-> -- 56
+            752 strings with 8817 characters,
+and the built_in function-call counts, 13870 in all, are:
+= -- 1422
+> -- 84
 < -- 0
-+ -- 29
-- -- 14
-* -- 617
-:= -- 1026
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 12
++ -- 50
+- -- 21
+* -- 1111
+:= -- 1721
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 430
-empty$ -- 858
-format.name$ -- 14
-if$ -- 1879
+cite$ -- 63
+duplicate$ -- 633
+empty$ -- 1490
+format.name$ -- 21
+if$ -- 3198
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 108
-newline$ -- 85
-num.names$ -- 14
-pop$ -- 254
+int.to.str$ -- 21
+missing$ -- 160
+newline$ -- 121
+num.names$ -- 21
+pop$ -- 400
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 227
+skip$ -- 335
 stack$ -- 0
-substring$ -- 1048
-swap$ -- 256
+substring$ -- 2181
+swap$ -- 374
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 30
-while$ -- 42
-width$ -- 16
-write$ -- 180
-(There were 31 warnings)
+warning$ -- 42
+while$ -- 63
+width$ -- 23
+write$ -- 259
+(There were 42 warnings)

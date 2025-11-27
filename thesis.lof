@@ -1,0 +1,28 @@
+\renewcommand {\@dotsep }{0.5}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \xpg@aux {}{english}\ignorespaces ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 1}}{19}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \xpg@aux {}{english}\ignorespaces ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 2}}{20}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \xpg@aux {}{english}\ignorespaces ตัวตนสมมติที่เป็นตัวแทนของกลุ่มผู้ใช้เป้าหมายคนที่ 3}}{20}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \xpg@aux {}{english}\ignorespaces ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 1}}{21}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \xpg@aux {}{english}\ignorespaces ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 2}}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \xpg@aux {}{english}\ignorespaces ประสบการณ์ของผู้ใช้เมื่อมีปฏิสัมพันธ์กับแอปพลิเคชันของเราคนที่ 3}}{22}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \xpg@aux {}{english}\ignorespaces System Architecture Design}}{24}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \xpg@aux {}{english}\ignorespaces Entity Relationship Diagram (ERD)}}{25}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \xpg@aux {}{english}\ignorespaces Functional Decomposition}}{26}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 0}}{26}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 1}}{27}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.1 - Manage User Information}}{28}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.2 - OCR/ Barcode/ Text-To-Speech}}{28}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.3 - Medication Management}}{29}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.4 - Notification Management}}{29}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces \xpg@aux {}{english}\ignorespaces Data Flow Diagram Level 2.5 - History Logging}}{30}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces \xpg@aux {}{english}\ignorespaces หน้าการจัดการข้อมูลผู้ใช้งาน}}{30}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces \xpg@aux {}{english}\ignorespaces หน้าสำหรับการจัดการข้อมูลยา}}{31}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces \xpg@aux {}{english}\ignorespaces หน้าสำหรับการจัดการข้อมูลอาการหลังการใช้ยา}}{31}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces \xpg@aux {}{english}\ignorespaces หน้าสำหรับการจัดการตั้งค่าการแจ้งเตือน}}{31}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces \xpg@aux {}{english}\ignorespaces หน้าสำหรับการค้นหาข้อมูลยา}}{32}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces \xpg@aux {}{english}\ignorespaces หน้าสำหรับการถ่ายภาพยาเพื่อยืนยันการทานยา การสแกนบาร์โค้ด และการแจ้งเตือนการทานยา}}{32}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces \xpg@aux {}{english}\ignorespaces หน้าสำหรับการเข้าสู่ระบบ}}{33}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces \xpg@aux {}{english}\ignorespaces แผนการดำเนินโครงงาน}}{35}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces \xpg@aux {}{english}\ignorespaces รูปผลลัพธ์ container ที่สร้างขึ้นจาก Kind}}{36}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces \xpg@aux {}{english}\ignorespaces รูปผลลัพธ์จากฐานข้อมูล PostgreSQL ที่ได้จากการประมวลผลข้อมูลด้วย PySpark}}{37}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces \xpg@aux {}{english}\ignorespaces รูปผลลัพธ์ข้อมูลจาก API ที่ได้พัฒนาด้วย Spring Boot}}{37}{figure.caption.52}%

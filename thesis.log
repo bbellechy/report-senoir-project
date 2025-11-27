@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.6)  22 OCT 2025 18:32
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.6)  21 NOV 2025 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -634,7 +634,7 @@ File: gloss-thai.ldf polyglossia: module for Thai
 Package fontspec Info: 
 (fontspec)             Font family 'THSarabunNew.ttf(0)' created for font
 (fontspec)             'THSarabunNew.ttf' with options
-(fontspec)             [Ligatures=TeX,Ligatures=TeX,SizeFeatures={Size=14}].
+(fontspec)             [Ligatures=TeX,SizeFeatures={Size=14}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -724,7 +724,7 @@ Package fontspec Info:
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(4)/m/n' in size <10> not av
 ailable
-(Font)              size <14> substituted on input line 68.
+(Font)              size <14> substituted on input line 70.
 
 
 Package fontspec Info: 
@@ -933,13 +933,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(4)/m/sl' undefined
-(Font)              using `TU/THSarabunNew.ttf(4)/m/n' instead on input line 11
+(Font)              using `TU/THSarabunNew.ttf(4)/m/n' instead on input line 10
 .
 
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(4)/m/sl' in size <10> not a
 vailable
-(Font)              size <14> substituted on input line 11.
+(Font)              size <14> substituted on input line 10.
 
 [2
 
@@ -985,7 +985,7 @@ t available
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(0)/b/n' in size <10> not av
 ailable
-(Font)              size <14> substituted on input line 12.
+(Font)              size <14> substituted on input line 18.
 
 
 
@@ -999,7 +999,19 @@ ailable
 
 
 
-[6] (chap1.tex
+[6] (thesis.lof)
+\tf@lof=\write6
+\openout6 = `thesis.lof'.
+
+
+
+[7] (thesis.lot)
+\tf@lot=\write7
+\openout7 = `thesis.lot'.
+
+
+
+[8] (chap1.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1019,7 +1031,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.21004pt}.
 
-[2]
+[2])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1028,32 +1040,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[3]
-File: ./figures/chap1/project_plan.png Graphic file (type bmp)
-<./figures/chap1/project_plan.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.21004pt}.
-
-[4])
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[5] (chap2.tex
-
-LaTeX Warning: Citation `ageing2023' on page 6 undefined on input line 5.
-
-
+[3] (chap2.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1062,9 +1049,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
 
-[6
+[4
 
 ]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.26604pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.26604pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
+
+[5]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.67404pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.67404pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
+
+[6]
+Overfull \hbox (2.31557pt too wide) in paragraph at lines 146--147
+[]\TU/THSarabunNew.ttf(0)/b/n/14 Spring Boot [[]] เป็น Framework ที่ พัฒนา โดย 
+Pivotal (ปัจจุบัน เป็น ส่วน หนึ่ง ของ VMware) สำหรับ การ สร้าง แอปพลิเคชัน
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1101,6 +1112,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
 
 [10]
+! Misplaced alignment tab character &.
+<argument> Individuals &
+                         Interactions: 
+l.279 ...tem \textbf{Individuals & Interactions: }
+                                                   คนและปฏิสัมพันธ์มากกว่า ก...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.279 ...กกว่า กระบวนการและเครื่องมือ (Processes &
+                                                   Tools)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(0)/m/it' undefined
+(Font)              using `TU/THSarabunNew.ttf(0)/m/n' instead on input line 29
+1.
+
+
+LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(0)/m/it' in size <10> not a
+vailable
+(Font)              size <14> substituted on input line 291.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1109,7 +1153,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[11]
+[11])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1118,7 +1162,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
 
-[12]
+[12] (chap3.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1127,203 +1171,189 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[13]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.67404pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.67404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
-
-[14])
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[15] (chap3.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.67404pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.67404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
-
-[16
+[13
 
 ]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
+(fancyhdr)                Make it at least 14.67404pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.67404pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
 
-[17]
+[14]
+Overfull \hbox (2.27074pt too wide) in paragraph at lines 93--94
+[]\TU/THSarabunNew.ttf(0)/m/it/14 โดย ได้ ทำการ เปรียบ เทียบ ฟีเจอร์ หลัก ของ แ
+อปพลิเคชัน ยอด นิยม 5 ตัว ได้แก่ CapYaDoo, PharmaSee [[]], MyYaAndYou
+ []
+
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(4)/b/n' undefined
 (Font)              using `TU/THSarabunNew.ttf(4)/m/n' instead on input line 12
-9.
+5.
 
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(4)/b/n' in size <10> not av
 ailable
-(Font)              size <14> substituted on input line 129.
+(Font)              size <14> substituted on input line 125.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 ค้นหา ด้วย
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 129--129
+Underfull \hbox (badness 7326) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 ค้นหา จาก ภาพ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 ค้นหา ด้วย
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 125--125
+\TU/THSarabunNew.ttf(4)/b/n/14 ข้อความ / QR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 เสียง อ่าน ข้อมูล ยา
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 บันทึก อาการ หลัง/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 มี ระบบ บันทึก
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \TU/THSarabunNew.ttf(4)/b/n/14 อาการ และ ผล
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 1655) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 มี บันทึก ยา และ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 ตั้ง เวลา เตือน
+ []
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 125--125
+\TU/THSarabunNew.ttf(4)/b/n/14 ตาม วัน เวลา ที่
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 สแกน ได้ ทั้ง
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 129--129
+Underfull \hbox (badness 3977) in paragraph at lines 125--125
 \TU/THSarabunNew.ttf(4)/b/n/14 "บาร์ โค้ด" และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \TU/THSarabunNew.ttf(4)/b/n/14 "ข้อความ บน
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 ไม่มี สแกน บาร์
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]\TU/THSarabunNew.ttf(4)/b/n/14 แปล ข้อความ
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 มี สแกน QR
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 129--129
-\TU/THSarabunNew.ttf(4)/b/n/14 ยา ได้ (ไทย $\OMS/cmsy/m/n/10 $$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]\TU/THSarabunNew.ttf(4)/b/n/14 ตรวจ ผ่าน ฐาน
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-\TU/THSarabunNew.ttf(4)/b/n/14 ข้อมูล ยา ใน
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 129--129
+Underfull \hbox (badness 6910) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 อ้างอิง จาก ฐาน
  []
 
 
-Underfull \hbox (badness 3803) in paragraph at lines 129--129
-[]\TU/THSarabunNew.ttf(4)/b/n/14 ข้อมูล ทั่วไป ไม่
+Underfull \hbox (badness 6910) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 อ้างอิง จาก ฐาน
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 129--129
-[]\TU/THSarabunNew.ttf(4)/b/n/14 UI เรียบ ง่าย /
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 UI เรียบ ง่าย
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 129--129
-\TU/THSarabunNew.ttf(4)/b/n/14 มี เสียง / แปล
+Underfull \hbox (badness 2221) in paragraph at lines 125--125
+\TU/THSarabunNew.ttf(4)/b/n/14 พัฒนา เพื่อ ผู้ สูง
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 129--129
-[]\TU/THSarabunNew.ttf(4)/b/n/14 ใช้ งาน ง่าย และ
+Underfull \hbox (badness 4492) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 UI ใช้ งาน ยาก
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 129--129
-\TU/THSarabunNew.ttf(4)/b/n/14 ระบบ แจ้ง เตือน
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\TU/THSarabunNew.ttf(4)/b/n/14 ความ ซับ ซ้อน
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]\TU/THSarabunNew.ttf(4)/b/n/14 ข้อความ เยอะ
+Underfull \hbox (badness 4492) in paragraph at lines 125--125
+[]\TU/THSarabunNew.ttf(4)/b/n/14 UI ใช้ งาน ยาก
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 129--129
+Underfull \hbox (badness 1810) in paragraph at lines 125--125
+\TU/THSarabunNew.ttf(4)/b/n/14 และ ยัง ไม่มี การ
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 บันทึก ประวัติ ยา ใน
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 มี ระบบ เก็บ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \TU/THSarabunNew.ttf(4)/b/n/14 ประวัติ ยา และ
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 129--129
+Underfull \hbox (badness 4660) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 เก็บ เฉพาะ ภาพ
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 129--129
+Underfull \hbox (badness 4765) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 บันทึก ข้อมูล ยา
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []\TU/THSarabunNew.ttf(4)/b/n/14 ใช้ OCR อ่าน
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \TU/THSarabunNew.ttf(4)/b/n/14 ฉลาก ยา และ
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.67404pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.67404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
-
-[18]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1332,7 +1362,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[19]
+[15
+
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1341,7 +1373,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
 
-[20]
+[16]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1350,7 +1382,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[21]
+[17])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1359,16 +1391,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.67404pt}.
 
-[22])
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[23] (chap4.tex
+[18] (chap4.tex
 File: figures/chap4/persona/persona_1.png Graphic file (type bmp)
 <figures/chap4/persona/persona_1.png>
 File: figures/chap4/persona/persona_2.png Graphic file (type bmp)
@@ -1379,14 +1402,81 @@ File: figures/chap4/persona/persona_3.png Graphic file (type bmp)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.26604pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.26604pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
+
+[19
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.71404pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.71404pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
 
-[24
+[20]
+File: figures/chap4/user_journey/journey_1.png Graphic file (type bmp)
+<figures/chap4/user_journey/journey_1.png>
+File: figures/chap4/user_journey/journey_2.png Graphic file (type bmp)
+<figures/chap4/user_journey/journey_2.png>
+File: figures/chap4/user_journey/journey_3.png Graphic file (type bmp)
+<figures/chap4/user_journey/journey_3.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.26604pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.26604pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
+
+[21
 
 ]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.71404pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.71404pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
+
+[22]
+Overfull \hbox (3.88242pt too wide) in paragraph at lines 155--157
+[]\TU/THSarabunNew.ttf(0)/m/it/14 Client Application: ส่วน ของ ผู้ ใช้ งาน (Fro
+ntend) ถูก พัฒนา ด้วย Flutter ซึ่ง เป็น เครื่อง มือ สำหรับ พัฒนา แอปพลิเคชัน
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.26604pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.26604pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
+
+[23]
+File: figures/chap4/architecture/architecture.png Graphic file (type bmp)
+<figures/chap4/architecture/architecture.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.71404pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.71404pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
+
+[24]
+File: figures/chap4/erd/entity_relationship_diagram.png Graphic file (type bmp)
+
+<figures/chap4/erd/entity_relationship_diagram.png>
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1396,24 +1486,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
 [25]
-! Misplaced alignment tab character &.
-<argument> The Scenario &
-                          Objective:
-l.50     \item \textbf{The Scenario & Objective:}
-                                                  สถานการณ์และวัตถุประสงค์เพ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-File: figures/chap4/user_journey/journey_1.png Graphic file (type bmp)
-<figures/chap4/user_journey/journey_1.png>
-File: figures/chap4/user_journey/journey_2.png Graphic file (type bmp)
-<figures/chap4/user_journey/journey_2.png>
-File: figures/chap4/user_journey/journey_3.png Graphic file (type bmp)
-<figures/chap4/user_journey/journey_3.png>
+File: figures/chap4/functional_decomposition/functional_decomposition.png Graph
+ic file (type bmp)
+<figures/chap4/functional_decomposition/functional_decomposition.png>
+File: figures/chap4/dfd_level_0/dfd_level_0.png Graphic file (type bmp)
+<figures/chap4/dfd_level_0/dfd_level_0.png>
+File: figures/chap4/dfd_level_1/dfd_level_1.png Graphic file (type bmp)
+<figures/chap4/dfd_level_1/dfd_level_1.png>
 
 
 
@@ -1435,188 +1514,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
 [27]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.71404pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.71404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
-
-[28]
-File: figures/chap4/architecture/architecture.png Graphic file (type bmp)
-<figures/chap4/architecture/architecture.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[29]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.71404pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.71404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
-
-[30]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[31
-
-]
-File: figures/chap4/erd/entity_relationship_diagram.png Graphic file (type bmp)
-
-<figures/chap4/erd/entity_relationship_diagram.png>
-
-! Undefined control sequence.
-l.203 \subsubsubsection
-                       {สัญลักษณ์}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no ○ in font [THSarabunNew.ttf]/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no ○ in font [THSarabunNew.ttf]/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Missing character: There is no ○ in font [THSarabunNew.ttf]/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.71404pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.71404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
-
-[32
-
-]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[33
-
-]
-File: figures/chap4/functional_decomposition/functional_decomposition.png Graph
-ic file (type bmp)
-<figures/chap4/functional_decomposition/functional_decomposition.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.71404pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.71404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
-
-[34
-
-]
-File: figures/chap4/dfd_level_0/dfd_level_0.png Graphic file (type bmp)
-<figures/chap4/dfd_level_0/dfd_level_0.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[35
-
-]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.71404pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.71404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
-
-[36
-
-]
-File: figures/chap4/dfd_level_1/dfd_level_1.png Graphic file (type bmp)
-<figures/chap4/dfd_level_1/dfd_level_1.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[37
-
-]
 File: figures/chap4/dfd_level_2/dfd_level_2.1.png Graphic file (type bmp)
 <figures/chap4/dfd_level_2/dfd_level_2.1.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.71404pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.71404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
-
-[38
-
-]
 File: figures/chap4/dfd_level_2/dfd_level_2.2.png Graphic file (type bmp)
 <figures/chap4/dfd_level_2/dfd_level_2.2.png>
 
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[39
-
-]
-File: figures/chap4/dfd_level_2/dfd_level_2.3.png Graphic file (type bmp)
-<figures/chap4/dfd_level_2/dfd_level_2.3.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.71404pt, for example:
 (fancyhdr)                \setlength{\headheight}{12.71404pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
 
-[40
+[28
 
 ]
+File: figures/chap4/dfd_level_2/dfd_level_2.3.png Graphic file (type bmp)
+<figures/chap4/dfd_level_2/dfd_level_2.3.png>
 File: figures/chap4/dfd_level_2/dfd_level_2.4.png Graphic file (type bmp)
 <figures/chap4/dfd_level_2/dfd_level_2.4.png>
 
@@ -1628,37 +1543,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[41
+[29
 
 ]
 File: figures/chap4/dfd_level_2/dfd_level_2.5.png Graphic file (type bmp)
 <figures/chap4/dfd_level_2/dfd_level_2.5.png>
+File: figures/chap4/figma/figma1.png Graphic file (type bmp)
+<figures/chap4/figma/figma1.png>
+File: figures/chap4/figma/figma2.png Graphic file (type bmp)
+<figures/chap4/figma/figma2.png>
+File: figures/chap4/figma/figma3.png Graphic file (type bmp)
+<figures/chap4/figma/figma3.png>
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.71404pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.71404pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
-
-[42
-
-]
-File: figures/chap4/figma/figma.png Graphic file (type bmp)
-<figures/chap4/figma/figma.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[43
-
-]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1670,7 +1566,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
 
-[44])
+[30
+
+]
+File: figures/chap4/figma/figma4.png Graphic file (type bmp)
+<figures/chap4/figma/figma4.png>
+File: figures/chap4/figma/figma6.png Graphic file (type bmp)
+<figures/chap4/figma/figma6.png>
+File: figures/chap4/figma/figma7.png Graphic file (type bmp)
+<figures/chap4/figma/figma7.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1679,18 +1587,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[45] (chap5.tex)
+[31]
+File: figures/chap4/figma/figma5.png Graphic file (type bmp)
+<figures/chap4/figma/figma5.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.04204pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.04204pt}.
+(fancyhdr)                Make it at least 12.71404pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.71404pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.04204pt}.
+(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
 
-[46
+[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (chap6.tex)
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1699,21 +1614,72 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[47
+[33]
 
-] (thesis.bbl
-Invalid UTF-8 byte or sequence at line 4 replaced by U+FFFD.
 
-Missing character: There is no � in font [THSarabunNew.ttf]/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
-Invalid UTF-8 byte or sequence at line 19 replaced by U+FFFD.
-Missing character: There is no � in font [THSarabunNew.ttf]/OT:script=latn;lang
-uage=dflt;mapping=tex-text;!
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.71404pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.71404pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
 
-Underfull \hbox (badness 1590) in paragraph at lines 29--33
-[]\TU/THSarabunNew.ttf(0)/b/n/14 Dix A.. “Human-Computer Interaction”;,  [ออนไล
-น์],  [Online]. Available: []https:// dl.acm.org/ doi/
- []
+[34]
+File: figures/chap1/planing.png Graphic file (type bmp)
+<figures/chap1/planing.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.26604pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.26604pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
+
+[35]
+File: figures/chap4/result/kind.png Graphic file (type bmp)
+<figures/chap4/result/kind.png>
+File: figures/chap4/result/db.png Graphic file (type bmp)
+<figures/chap4/result/db.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.71404pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.71404pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.71404pt}.
+
+[36]
+File: figures/chap4/result/api.png Graphic file (type bmp)
+<figures/chap4/result/api.png>
+)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.26604pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.26604pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
+
+[37] (thesis.bbl
+! Missing $ inserted.
+<inserted text> 
+                $
+l.70 ...tlassian.com/agile?utm_source=chatgpt.com}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.70 ...tlassian.com/agile?utm_source=chatgpt.com}
+                                                  .
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
 
@@ -1724,7 +1690,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.72804pt}.
 
-[48
+[38
 
 ])
 
@@ -1735,11 +1701,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
 
-[49] (AIstatement.tex
+[39] (AIstatement.tex
 
 LaTeX Font Warning: Font shape `TU/THSarabunNew.ttf(7)/m/n' in size <10> not av
 ailable
-(Font)              size <6> substituted on input line 9.
+(Font)              size <6> substituted on input line 7.
 
 
 
@@ -1750,27 +1716,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.79803pt}.
 
-[50
+[40
 
-]) (appendixA.tex)
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.26604pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.26604pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.26604pt}.
-
-[51
-
-
-
-] (appendixB.tex)
-
-[52
-
-
-] 
+]) 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (thesis.aux)
  ***********
@@ -1786,18 +1734,18 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E7A4DC73287D2771B85E8A89633B6519;1467.
+(rerunfilecheck)             Checksum: 90AC9D43236B566135F3194ED912AFC0;1342.
  ) 
 Here is how much of TeX's memory you used:
- 22764 strings out of 403245
- 422067 string characters out of 5465107
+ 22839 strings out of 403245
+ 424542 string characters out of 5465107
  978512 words of memory out of 5000000
- 50881 multiletter control sequences out of 15000+600000
- 629750 words of font info for 73 fonts, out of 8000000 for 9000
+ 50954 multiletter control sequences out of 15000+600000
+ 629742 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,12n,107p,724b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,107p,724b,815s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (58 pages).
+Output written on thesis.pdf (48 pages).
