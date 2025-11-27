@@ -15,32 +15,14 @@
 \newblock [ออนไลน์],
 \newblock [Online]. Available: \url{https://share.google/fLVqWdcNTidgS22mZ}.
 
-\bibitem{tmt2013}
-{สำนักพัฒนามาตรฐานระบบข้อมูลสุขภาพไทย}.
-  ``บัญชีข้อมูลยาและรหัสยามาตรฐานไทย'';
-  1 2013,
-\newblock สืบค้นเมื่อ: 15 สิงหาคม 2568,
-\newblock [ออนไลน์],
-\newblock [Online]. Available: \url{https://this.or.th}.
-
-\bibitem{clickup}
-ClickUp. ``Hundreds of powerful tools, one platform.'';,
-\newblock [ออนไลน์],
-\newblock [Online]. Available: \url{https://clickup.com/features}.
-
 \bibitem{hci}
-{Alan Dix}. ``Human-Computer Interaction'';,
+{พิชญา นิลรุ่งรัตนา และ
+  อติเทพ แจ้ดนาลาว}. ``Human-Computer
+  Interaction''; 2022,
+\newblock VOL.9-NO.1 JANUARY--JUNE 2022; สืบค้นเมื่อ: 20
+  กันยายน 2568,
 \newblock [ออนไลน์],
-\newblock [Online]. Available:
-  \url{https://dl.acm.org/doi/10.1145/3544548.3581518}.
-
-\bibitem{medicine2018}
-{ภญ. วณีนุช วราชุน}.
-  ``ระบบการจัดการด้านยาในโรงพยาบาลคุณภาพ'';
-  2018,
-\newblock สืบค้นเมื่อ 2 กันยายน 2568,
-\newblock [ออนไลน์],
-\newblock [Online]. Available: \url{https://share.google/ZwsMuslBHQop6T20O}.
+\newblock [Online]. Available: \url{https://share.google/mikVx1SaFMp3w5haR}.
 
 \bibitem{database2022}
 Appmaster. ``Fundamentals of Database Systems''; 10 2022,
@@ -68,11 +50,24 @@ AWS. ``OCR (การรู้จำอักขระด้วยแสง)
 \newblock [ออนไลน์],
 \newblock [Online]. Available: \url{https://flutter.dev}.
 
+\bibitem{oracle2025}
+{Oracle}. ``Java''; 2025,
+\newblock สืบค้นเมื่อ 6 พฤศจิกายน 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available: \url{https://www.oracle.com/java/}.
+
 \bibitem{dart2024}
 Dart. ``Dart''; 9 2025,
 \newblock สืบค้นเมื่อ: 20 กันยายน 2568,
 \newblock [ออนไลน์],
 \newblock [Online]. Available: \url{https://dart.dev/overview}.
+
+\bibitem{agile2025}
+{Atlassian}. ``{What is the Agile methodology?}''; 6 2025,
+\newblock สืบค้นเมื่อ 6 พฤศจิกายน 2568,
+\newblock [ออนไลน์],
+\newblock [Online]. Available:
+  \url{https://www.atlassian.com/agile?utm_source=chatgpt.com}.
 
 \bibitem{thaijournal2023}
 {ณัฐกรณ์ ศรีบุรมย์}.
@@ -105,13 +100,13 @@ Dart. ``Dart''; 9 2025,
 
 \bibitem{pharmasee}
 {สมาคมการค้าเฮลท์เทคไทย}.
-  ``PharmaSee'';,
+  ``PharmaSee''; 2020,
 \newblock [ออนไลน์],
 \newblock [Online]. Available:
   \url{https://www.thaihealthtech.com/thta-applications-and-services/pharmasee-app}.
 
 \bibitem{myyaandyou}
-{NECTEC}. ``MyYaAndYou'';,
+{NECTEC}. ``MyYaAndYou''; 2018,
 \newblock [ออนไลน์],
 \newblock [Online]. Available:
   \url{https://software.thaiware.com/4396-MyYaAndYou-App.html}.
@@ -125,7 +120,7 @@ Dart. ``Dart''; 9 2025,
 \bibitem{rdu}
 {ผศ. ดร.  จริยา วิทยะศุภร และ ผศ.
   ดร.  จุฬารักษ์ กวีวิวิธชัย}.
-  ``RDU'';,
+  ``RDU''; 2017,
 \newblock [ออนไลน์],
 \newblock [Online]. Available:
   \url{https://www.rama.mahidol.ac.th/nursing/sites/default/files/public/knowledge/doc/1.pdf}.
@@ -140,15 +135,10 @@ Dart. ``Dart''; 9 2025,
   \url{https://digitorystyle.com/what-is-persona/}.
 
 \bibitem{journey}
-Figma. ``User journey mapping: What it is + how to do it'';,
+Figma. ``User journey mapping: What it is + how to do it''; 2025,
 \newblock [ออนไลน์],
 \newblock [Online]. Available:
   \url{https://www.figma.com/resource-library/user-journey-map}.
-
-\bibitem{figma}
-Figma. ``Figma Design'';,
-\newblock [ออนไลน์],
-\newblock [Online]. Available: \url{https://www.figma.com/design/}.
 
 \bibitem{erd}
 {Ihechikara Abba}. ``Crow's Foot Notation – Relationship Symbols And How to
@@ -158,13 +148,9 @@ Figma. ``Figma Design'';,
 \newblock [Online]. Available:
   \url{https://www.freecodecamp.org/news/crows-foot-notation-relationship-symbols-and-how-to-read-diagrams}.
 
-\bibitem{dfd2025}
-{Napat Rammanu}. ``{Data Flow Diagrams
-  จัดการเส้นทางการไหลของข้อมูล}'';
-  6 2025,
-\newblock สืบค้นเมื่อ 29 สิงหาคม 2568,
+\bibitem{figma}
+Figma. ``Figma Design''; 2025,
 \newblock [ออนไลน์],
-\newblock [Online]. Available:
-  \url{https://rdbi.co.th/2025/06/data-flow-diagrams-%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B8%82/}.
+\newblock [Online]. Available: \url{https://www.figma.com/design/}.
 
 \end{thebibliography}
